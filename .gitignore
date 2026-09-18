@@ -2,3 +2,4 @@
 __pycache__/
 *.pyc
 .DS_Store
+analyses/gse337208_caf_mining/data/

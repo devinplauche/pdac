@@ -1,0 +1,69 @@
+--- GSM9850794 (KPC1 Veh)
+  cells: 12643 -> 11691 after QC
+  fibroblast cluster 0: 1857 cells (fib=3.257, epi=0.291, imm=0.053) -> 1857 after doublet cleanup
+--- GSM9850795 (KPC1 MRTX1133)
+  cells: 9314 -> 7377 after QC
+  fibroblast cluster 5: 198 cells (fib=2.781, epi=0.373, imm=0.136) -> 195 after doublet cleanup
+--- GSM9850796 (KPC3 anti-CTLA4)
+  cells: 5557 -> 4800 after QC
+  fibroblast cluster 2: 447 cells (fib=2.857, epi=0.178, imm=0.099) -> 447 after doublet cleanup
+--- GSM9850797 (KPC3 MRTX1133)
+  cells: 5295 -> 4823 after QC
+  fibroblast cluster 5: 596 cells (fib=3.164, epi=0.046, imm=0.117) -> 596 after doublet cleanup
+--- GSM9850798 (KPC3 MRTX1133+anti-CTLA4)
+  cells: 10628 -> 6842 after QC
+  fibroblast cluster 4: 383 cells (fib=2.495, epi=0.043, imm=0.07) -> 383 after doublet cleanup
+--- GSM9850799 (KPC2 RMC6236)
+  cells: 6527 -> 5976 after QC
+  fibroblast cluster 4: 53 cells (fib=2.722, epi=0.317, imm=0.207) -> 53 after doublet cleanup
+--- GSM9850800 (KPC2 Veh)
+  cells: 6770 -> 6234 after QC
+  fibroblast cluster 0: 43 cells (fib=2.587, epi=0.42, imm=0.094) -> 42 after doublet cleanup
+--- GSM9850801 (KPC2 RMC6236+anti-CTLA4)
+  cells: 6808 -> 6640 after QC
+  WARNING: no clean fibroblast cluster in GSM9850801; best cluster 3: {'sample': 'GSM9850801', 'cluster': 3, 'n_cells': 644, 'fib_mean': 0.0, 'epi_mean': 0.002, 'imm_mean': 0.602}
+--- GSM9850802 (KPC2 RMC6236+anti-PD1)
+  cells: 5499 -> 5378 after QC
+  WARNING: no clean fibroblast cluster in GSM9850802; best cluster 0: {'sample': 'GSM9850802', 'cluster': 0, 'n_cells': 110, 'fib_mean': 0.19, 'epi_mean': 0.025, 'imm_mean': 0.991}
+    sample model           treatment  cells_raw  cells_qc  fibroblasts  fibroblast_pct  median_umi_qc  median_genes_qc
+GSM9850794  KPC1                 Veh      12643     11691         1857           15.88         9240.0           2781.0
+GSM9850795  KPC1            MRTX1133       9314      7377          195            2.64         6929.0           2244.0
+GSM9850796  KPC3          anti-CTLA4       5557      4800          447            9.31        11616.0           2937.0
+GSM9850797  KPC3            MRTX1133       5295      4823          596           12.36        10221.0           2821.0
+GSM9850798  KPC3 MRTX1133+anti-CTLA4      10628      6842          383            5.60         5254.5           1632.0
+GSM9850799  KPC2             RMC6236       6527      5976           53            0.89         6948.0           2510.0
+GSM9850800  KPC2                 Veh       6770      6234           42            0.67         5560.0           2227.5
+GSM9850801  KPC2  RMC6236+anti-CTLA4       6808      6640            0            0.00         6231.0           2061.0
+GSM9850802  KPC2    RMC6236+anti-PD1       5499      5378            0            0.00         7507.0           2435.5
+  skipping pseudobulk for GSM9850801 (no fibroblasts)
+  skipping pseudobulk for GSM9850802 (no fibroblasts)
+compendium v1.0; method=zscore; 7 samples x 7 signatures -> /home/hatch/workspace/pdac/analyses/gse337208_caf_mining/output/pseudobulk_signature_scores.csv
+                                                          label n_genes n_found
+myCAF                                       Myofibroblastic CAF       6       6
+iCAF                                           Inflammatory CAF       6       6
+apCAF                                    Antigen-presenting CAF       5       5
+SASP                  Senescence-associated secretory phenotype      14      14
+matrisome_core                  Core matrisome (structural ECM)      19      19
+MAPK_targets                    MAPK/ERK transcriptional output       9       9
+RASON_inhibition_PD  RAS(ON) inhibition pharmacodynamic readout       7       7
+
+coverage table written
+  ranking 53 fibroblasts x 56 sig genes (GSM9850799)
+  ranking 42 fibroblasts x 56 sig genes (GSM9850800)
+myCAF: 6/6 genes in matrix
+iCAF: 6/6 genes in matrix
+apCAF: 5/5 genes in matrix
+SASP: 14/14 genes in matrix
+matrisome_core: 19/19 genes in matrix
+MAPK_targets: 9/9 genes in matrix
+RASON_inhibition_PD: 7/7 genes in matrix
+          signature  n_cells_Veh  n_cells_RMC6236  median_Veh  median_RMC6236  median_diff_RMC_minus_Veh  MWU_p_cell_level
+              myCAF           42               53      0.6263          0.5481                    -0.0782          0.011933
+               iCAF           42               53      0.4745          0.5328                     0.0583          0.000486
+              apCAF           42               53      0.6900          0.8671                     0.1770          0.000193
+               SASP           42               53      0.5534          0.5498                    -0.0036          0.842590
+     matrisome_core           42               53      0.8491          0.8540                     0.0049          0.733133
+       MAPK_targets           42               53      0.6265          0.6269                     0.0004          0.416184
+RASON_inhibition_PD           42               53      0.6223          0.6252                     0.0029          0.943247
+ALL DONE
+EXIT:0
