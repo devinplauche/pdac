@@ -1,0 +1,141 @@
+{
+  "generated": "2026-09-18",
+  "available": true,
+  "rows": [
+    {
+      "line": "AZ",
+      "condition": "10 nM RASi daily",
+      "fold": 3.11,
+      "delta_log2": 1.637,
+      "cohens_d": 1.28,
+      "n_for_80pct": 11,
+      "power_at_n3": 0.229
+    },
+    {
+      "line": "AZ",
+      "condition": "100 nM RASi daily",
+      "fold": 3.53,
+      "delta_log2": 1.822,
+      "cohens_d": 2.76,
+      "n_for_80pct": 4,
+      "power_at_n3": 0.716
+    },
+    {
+      "line": "AZ",
+      "condition": "10 nM RASi 5 Day",
+      "fold": 0.29,
+      "delta_log2": -1.78,
+      "cohens_d": 2.35,
+      "n_for_80pct": 5,
+      "power_at_n3": 0.585
+    },
+    {
+      "line": "AZ",
+      "condition": "100 nM RASi 5 Day",
+      "fold": 15.08,
+      "delta_log2": 3.914,
+      "cohens_d": 23.87,
+      "n_for_80pct": 2,
+      "power_at_n3": 1
+    },
+    {
+      "line": "BU",
+      "condition": "10 nM RASi daily",
+      "fold": 0.81,
+      "delta_log2": -0.305,
+      "cohens_d": 9.61,
+      "n_for_80pct": 2,
+      "power_at_n3": 1
+    },
+    {
+      "line": "BU",
+      "condition": "100 nM RASi daily",
+      "fold": 0.67,
+      "delta_log2": -0.586,
+      "cohens_d": 14.64,
+      "n_for_80pct": 2,
+      "power_at_n3": 1
+    },
+    {
+      "line": "BU",
+      "condition": "10 nM RASi 5 Day",
+      "fold": 0.88,
+      "delta_log2": -0.177,
+      "cohens_d": 1.96,
+      "n_for_80pct": 6,
+      "power_at_n3": 0.45
+    },
+    {
+      "line": "BU",
+      "condition": "100 nM RASi 5 Day",
+      "fold": 0.91,
+      "delta_log2": -0.143,
+      "cohens_d": 4.14,
+      "n_for_80pct": 3,
+      "power_at_n3": 0.959
+    },
+    {
+      "line": "GOL 321",
+      "condition": "10 nM RASi daily",
+      "fold": 0,
+      "delta_log2": -10.479,
+      "cohens_d": 0.84,
+      "n_for_80pct": 24,
+      "power_at_n3": 0.127
+    },
+    {
+      "line": "GOL 321",
+      "condition": "100 nM RASi daily",
+      "fold": 0.36,
+      "delta_log2": -1.454,
+      "cohens_d": 3.64,
+      "n_for_80pct": 3,
+      "power_at_n3": 0.907
+    },
+    {
+      "line": "GOL 321",
+      "condition": "10 nM RASi 5 Day",
+      "fold": 0.25,
+      "delta_log2": -2,
+      "cohens_d": 3.88,
+      "n_for_80pct": 3,
+      "power_at_n3": 0.936
+    },
+    {
+      "line": "GOL 321",
+      "condition": "100 nM RASi 5 Day",
+      "fold": 2.59,
+      "delta_log2": 1.373,
+      "cohens_d": 12.74,
+      "n_for_80pct": 2,
+      "power_at_n3": 1
+    },
+    {
+      "line": "GOL 205",
+      "condition": "100 nM RASi daily",
+      "fold": 2.62,
+      "delta_log2": 1.39,
+      "cohens_d": 2.39,
+      "n_for_80pct": 4,
+      "power_at_n3": 0.598
+    },
+    {
+      "line": "GOL 205",
+      "condition": "10 nM RASi 5 Day",
+      "fold": 1.56,
+      "delta_log2": 0.642,
+      "cohens_d": 0.82,
+      "n_for_80pct": 25,
+      "power_at_n3": 0.123
+    },
+    {
+      "line": "GOL 205",
+      "condition": "100 nM RASi 5 Day",
+      "fold": 20.09,
+      "delta_log2": 4.329,
+      "cohens_d": 7.43,
+      "n_for_80pct": 2,
+      "power_at_n3": 1
+    }
+  ]
+}

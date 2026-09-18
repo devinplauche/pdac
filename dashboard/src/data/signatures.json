@@ -1,0 +1,291 @@
+{
+  "generated": "2026-09-18",
+  "available": true,
+  "version": "1.0",
+  "curated": "2026-09-18",
+  "scoring_note": "Intended for mean z-score scoring (see score_signatures.py): log2(x+1) transform, per-gene z-score across samples, signature score = mean z of member genes present in the matrix.",
+  "signatures": [
+    {
+      "key": "myCAF",
+      "label": "Myofibroblastic CAF",
+      "description": "Contractile, ECM-depositing CAF state defined by high smooth-muscle gene expression (Acta2/Tagln) and TGFbeta-driven identity.",
+      "direction": null,
+      "human": [
+        "ACTA2",
+        "TAGLN",
+        "IGFBP3",
+        "THY1",
+        "COL12A1",
+        "THBS2"
+      ],
+      "mouse": [
+        "Acta2",
+        "Tagln",
+        "Igfbp3",
+        "Thy1",
+        "Col12a1",
+        "Thbs2"
+      ],
+      "mouse_note": null,
+      "human_note": null,
+      "source": {
+        "first_author": "Elyada E",
+        "year": 2019,
+        "journal": "Cancer Discovery",
+        "pmid": 31197017,
+        "doi": "10.1158/2159-8290.CD-19-0094",
+        "pmcid": "PMC6727976",
+        "note": "Markers taken from the main text (Fig. 4E-F; sub-cluster 3): \"high expression of the smooth muscle genes Acta2 and Tagln, as well as Igfbp3, Thy1, Col12a1 and Thbs2\"."
+      }
+    },
+    {
+      "key": "iCAF",
+      "label": "Inflammatory CAF",
+      "description": "Inflammatory CAF state defined by chemokine/cytokine expression (Il6, Cxcl1) and hyaluronan/ECM remodeling (Has1, Col14a1). Induced by IL-1/JAK-STAT signaling (Biffi et al., Cancer Discov 2019, PMID 30366930) and antagonized by TGFbeta.",
+      "direction": null,
+      "human": [
+        "CLEC3B",
+        "IL6",
+        "CXCL1",
+        "CXCL2",
+        "CXCL8",
+        "CCL2",
+        "CXCL12",
+        "HAS1",
+        "COL14A1"
+      ],
+      "mouse": [
+        "Clec3b",
+        "Il6",
+        "Cxcl1",
+        "Ly6c1",
+        "Has1",
+        "Col14a1"
+      ],
+      "mouse_note": "Mouse lacks a functional IL-8 (Cxcl8) gene; Ly6c1 has no direct human ortholog.",
+      "human_note": null,
+      "source": {
+        "first_author": "Elyada E",
+        "year": 2019,
+        "journal": "Cancer Discovery",
+        "pmid": 31197017,
+        "doi": "10.1158/2159-8290.CD-19-0094",
+        "pmcid": "PMC6727976",
+        "note": "Markers from main text (sub-cluster 1): Clec3b, Il6, Cxcl1, Ly6c1, plus Has1 and Col14a1 (iCAF-specific ECM deposition). Human list adds CXCL2, CCL2, CXCL12, CXCL8 per the Elyada-derived marker table in the CAF review (PMC9516766, Table 1, citing Elyada)."
+      }
+    },
+    {
+      "key": "apCAF",
+      "label": "Antigen-presenting CAF",
+      "description": "CAF state expressing MHC class II machinery (H2-Aa/H2-Ab1/Cd74) plus Saa3 and Slpi. Expresses pan-fibroblast markers (Col1a1, Dcn, Pdpn) at levels comparable to iCAF/myCAF, confirming fibroblast identity.",
+      "direction": null,
+      "human": [
+        "HLA-DRA",
+        "HLA-DRB1",
+        "CD74",
+        "SLPI"
+      ],
+      "mouse": [
+        "H2-Aa",
+        "H2-Ab1",
+        "Cd74",
+        "Saa3",
+        "Slpi"
+      ],
+      "mouse_note": null,
+      "human_note": "SAA3 is a pseudogene (SAA3P) in human; omitted from the human list.",
+      "source": {
+        "first_author": "Elyada E",
+        "year": 2019,
+        "journal": "Cancer Discovery",
+        "pmid": 31197017,
+        "doi": "10.1158/2159-8290.CD-19-0094",
+        "pmcid": "PMC6727976",
+        "note": "Main text: \"expressed genes belonging to the Major Histocompatibility Complex (MHC) class II family\" plus \"Serum Amyloid A3 (Saa3)\" and \"Secretory Leukocyte Peptidase Inhibitor (Slpi)\"."
+      }
+    },
+    {
+      "key": "SASP",
+      "label": "Senescence-associated secretory phenotype",
+      "description": "Core secreted factors of the senescence-associated secretory phenotype: interleukins, chemokines (GRO/MCP families), matrix metalloproteinases, IGFBPs, PAI-1, VEGF, uPA, GM-CSF, HGF. Relevant because RAS-induced senescence and therapy-induced inflammatory reprogramming converge on this program.",
+      "direction": null,
+      "human": [
+        "IL6",
+        "CXCL8",
+        "CXCL1",
+        "CXCL2",
+        "CXCL3",
+        "CCL2",
+        "MMP1",
+        "MMP3",
+        "SERPINE1",
+        "VEGFA",
+        "IGFBP2",
+        "IGFBP7",
+        "PLAU",
+        "CSF2",
+        "HGF"
+      ],
+      "mouse": [
+        "Il6",
+        "Cxcl1",
+        "Cxcl2",
+        "Cxcl3",
+        "Ccl2",
+        "Mmp1a",
+        "Mmp3",
+        "Serpine1",
+        "Vegfa",
+        "Igfbp2",
+        "Igfbp7",
+        "Plau",
+        "Csf2",
+        "Hgf"
+      ],
+      "mouse_note": "Mouse Mmp1 is annotated Mmp1a/Mmp1b; functional Cxcl8 is absent in mouse.",
+      "human_note": null,
+      "source": {
+        "first_author": "Coppe JP",
+        "year": 2008,
+        "journal": "PLoS Biology",
+        "pmid": 19053174,
+        "doi": "10.1371/journal.pbio.0060301",
+        "pmcid": null,
+        "note": "Core SASP factors from the oncogenic-RAS SASP proteomics in this paper: IL-6, IL-8, GRO-alpha/beta (CXCL1/2), MCP-1 (CCL2), MMP-1, MMP-3, PAI-1 (SERPINE1), VEGF, IGFBP-2/3/7, uPA (PLAU), GM-CSF, HGF."
+      }
+    },
+    {
+      "key": "matrisome_core",
+      "label": "Core matrisome (structural ECM)",
+      "description": "Structural extracellular-matrix signature: fibrillar collagens, collagen VI, ECM glycoproteins (fibronectin, periostin, tenascin-C, SPARC, thrombospondins) and small leucine-rich proteoglycans plus versican/perlecan. Tracks fibrotic/desmoplastic stroma; expected to fall when stroma is remodeled toward a less fibrotic state.",
+      "direction": null,
+      "human": [
+        "COL1A1",
+        "COL1A2",
+        "COL3A1",
+        "COL5A1",
+        "COL5A2",
+        "COL6A1",
+        "COL6A2",
+        "COL6A3",
+        "FN1",
+        "POSTN",
+        "TNC",
+        "SPARC",
+        "THBS1",
+        "THBS2",
+        "DCN",
+        "LUM",
+        "BGN",
+        "VCAN",
+        "HSPG2"
+      ],
+      "mouse": [
+        "Col1a1",
+        "Col1a2",
+        "Col3a1",
+        "Col5a1",
+        "Col5a2",
+        "Col6a1",
+        "Col6a2",
+        "Col6a3",
+        "Fn1",
+        "Postn",
+        "Tnc",
+        "Sparc",
+        "Thbs1",
+        "Thbs2",
+        "Dcn",
+        "Lum",
+        "Bgn",
+        "Vcan",
+        "Hspg2"
+      ],
+      "mouse_note": null,
+      "human_note": null,
+      "source": {
+        "first_author": "Naba A",
+        "year": 2012,
+        "journal": "Molecular & Cellular Proteomics",
+        "pmid": 22159717,
+        "doi": "10.1074/mcp.M111.014647",
+        "pmcid": null,
+        "note": "Gene selection follows the core-matrisome definition (collagens, ECM glycoproteins, proteoglycans) from the matrisome database introduced in this paper."
+      }
+    },
+    {
+      "key": "MAPK_targets",
+      "label": "MAPK/ERK transcriptional output",
+      "description": "Canonical ERK feedback/output genes: dual-specificity phosphatases (DUSP4/6), Sprouty feedback regulators (SPRY2/4), ETS factors (ETV1/4/5), plus ERK-driven FOSL1 and CCND1. Rises with MEK-ERK activity; falls with MEK/RAS inhibition.",
+      "direction": null,
+      "human": [
+        "DUSP4",
+        "DUSP6",
+        "SPRY2",
+        "SPRY4",
+        "ETV1",
+        "ETV4",
+        "ETV5",
+        "FOSL1",
+        "CCND1"
+      ],
+      "mouse": [
+        "Dusp4",
+        "Dusp6",
+        "Spry2",
+        "Spry4",
+        "Etv1",
+        "Etv4",
+        "Etv5",
+        "Fosl1",
+        "Ccnd1"
+      ],
+      "mouse_note": null,
+      "human_note": null,
+      "source": {
+        "first_author": "Pratilas CA",
+        "year": 2009,
+        "journal": "Proceedings of the National Academy of Sciences",
+        "pmid": 19251651,
+        "doi": "10.1073/pnas.0900946106",
+        "pmcid": null,
+        "note": "MAPK transcriptional-output genes defined by RAF-MEK feedback inhibition analysis (DUSP4, DUSP6, SPRY2, SPRY4, ETV4, ETV5 core; ETV1, FOSL1, CCND1 as ERK-driven effectors)."
+      }
+    },
+    {
+      "key": "RASON_inhibition_PD",
+      "label": "RAS(ON) inhibition pharmacodynamic readout",
+      "description": "ERK-output genes that DECREASE with RAS(ON) inhibition (daraxonrasib / RMC-6236). DUSP6 downregulation was used as the pharmacodynamic marker of MAPK pathway suppression in the RMC-6236 preclinical paper.",
+      "direction": "decreases with RAS(ON) inhibition",
+      "human": [
+        "DUSP6",
+        "SPRY2",
+        "SPRY4",
+        "ETV4",
+        "ETV5",
+        "FOSL1",
+        "CCND1"
+      ],
+      "mouse": [
+        "Dusp6",
+        "Spry2",
+        "Spry4",
+        "Etv4",
+        "Etv5",
+        "Fosl1",
+        "Ccnd1"
+      ],
+      "mouse_note": null,
+      "human_note": null,
+      "source": {
+        "first_author": "Holderfield M",
+        "year": 2024,
+        "journal": "Nature",
+        "pmid": 38589574,
+        "doi": "10.1038/s41586-024-07205-6",
+        "pmcid": null,
+        "note": "Holderfield et al., \"Concurrent inhibition of oncogenic and wild-type RAS-GTP for cancer therapy\" (RMC-6236 / daraxonrasib). DUSP6 used as PD readout of MAPK suppression; remaining genes are the canonical ERK-output set that co-varies with DUSP6."
+      }
+    }
+  ]
+}

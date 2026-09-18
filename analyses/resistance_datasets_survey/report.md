@@ -40,3 +40,25 @@ Full details per dataset (publication, model, treatment, data type, resistant mo
 
 ## Reproducibility
 `run.py` re-runs the live searches (GEO esearch/esummary over 8 query buckets, ENA portal, EBI ArrayExpress) and rewrites `output/raw_hits.csv`. `output/catalog.csv` is the human-curated layer on top — verify before reuse, especially publication links.
+
+## Verification addendum (2026-09-18)
+
+Follow-up verification pass resolving the open items from the original survey. No commits made; catalog.csv updated in place.
+
+### 1. Papers behind the newest deposits — all three VERIFIED
+- **GSE337208 →** Mahadevan KK et al., "Oncogenic Kras targeting with MRTX1133 or Daraxonrasib specifically synergize with anti-CTLA4 to promote anti-tumor immunity in pancreatic cancer," *Nature Communications* 2026;17(1):9105 (PMID 42649211, DOI 10.1038/s41467-026-75960-3). The paper's data-availability statement explicitly cites GSE337208. Match to the survey's description: confirmed — the survey's "Mahadevan et al. 2026 (KRAS + anti-CTLA4 synergy in PDAC)" attribution was correct.
+- **GSE336609 →** Chowdhury S, Ito I, et al. (corresponding John Paul Shen), "KRAS inhibition is an effective therapy for appendiceal adenocarcinoma," *Journal of Hematology & Oncology* 2026;19(1):70 (PMID 42393724, PMCID PMC13536544, DOI 10.1186/s13045-026-01817-3; preprint bioRxiv 2026.04.07.717107). The GEO series title is verbatim the paper title. Match: confirmed — AA organoids + PDX ± MRTX1133/RMC-6236, human/mouse reads separated, normal-fibroblast → iCAF shift reported.
+- **GSE294216 →** Principe DR, Becker JH, et al. (senior Hidayatullah G. Munshi), "Resistance to the KRASG12D Inhibitor MRTX1133 is Associated with Increased Sensitivity to BET Inhibition," *Molecular Cancer Therapeutics* 2026;25(6):1001 (PMID 41527355; DOI not retrieved this pass). Match: confirmed — acquired MRTX1133 resistance in human PDAC with histone-acetylation shift and BET-inhibitor re-sensitization.
+
+### 2. Aronchik et al. Nature Medicine — data-availability statement
+Paper: Aronchik I, Kar S, et al., *Nat Med* 2026;32(8):2865–2877 (PMID 42581230, PMCID PMC13472880 — open access; DOI 10.1038/s41591-026-04537-w). Data Availability statement (verbatim): "All data supporting the findings of this study are available within the article and its Supplementary Information. DNA sequencing data from the parental and resistant HPAC xenograft models have been deposited in the NCBI Gene Expression Omnibus under accession number GSE335219. Clinical and translational data were generated as part of the phase 1/2 study NCT05379985 and available as stated in 10.1056/NEJMoa2505783. Source data are provided with this paper."
+- **No controlled access anywhere in the statement** — zero mentions of dbGaP, EGA, or any controlled-access repository. The only deposit is public GEO (GSE335219).
+- The 44-patient paired ctDNA targeted-seq is **not deposited**; availability is deferred to the phase 1/2 trial paper (Wolpin et al., *NEJM* 2026;394:1790–1802, PMID 42090791), whose data-sharing statement could not be verified here (subscription-only, not in PMC) — treat as **UNVERIFIED**, likely sponsor-mediated request access typical of industry trials.
+
+### 3. GSE335219 GEO record — claim VERIFIED, with refinements
+Confirmed via E-utilities + GEO FTP listing: n_samples = 2 (GSM9808344 "HPAC DMSO", GSM9808345 "HPAC Daraxonrasib"), MAF files in `GSE335219_RAW.tar`, BioProject PRJNA1477593. Refinements vs the original survey text:
+- The samples are **xenograft-model** data ("parental and resistant HPAC xenograft models"), not simply cell line ± drug; filenames indicate parental passage P18 vs resistant passage P28 selected in 0.1 µM daraxonrasib.
+- **Raw reads also exist in SRA** (SRX33858264 HPAC DMSO; SRX33858265 HPAC Daraxonrasib) — the survey had noted only the MAFs.
+- No human+murine preclinical omics in this deposit — consistent with the paper's statement naming only the HPAC xenograft deposit.
+
+**Bottom line of this addendum:** every open item resolved except the NEJM trial paper's data-sharing statement (UNVERIFIED). The core verdict stands unchanged — no public daraxonrasib-resistant PDAC omics, nothing under controlled access, so generating her own resistant lines remains justified.
