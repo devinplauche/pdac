@@ -1,0 +1,60 @@
+{
+  "source": "TISCH2 search-gene API",
+  "base": "https://tisch.compbio.cn",
+  "annotation": "Celltype_curated (major-lineage)",
+  "datasets_queried": [
+    "PAAD_CRA001160",
+    "PAAD_GSE111672",
+    "PAAD_GSE141017",
+    "PAAD_GSE148673",
+    "PAAD_GSE154763",
+    "PAAD_GSE154778",
+    "PAAD_GSE158356",
+    "PAAD_GSE162708",
+    "PAAD_GSE165399"
+  ],
+  "genes": [
+    "EGFR",
+    "MET",
+    "ERBB2",
+    "ERBB3"
+  ],
+  "per_gene": {
+    "EGFR": {
+      "selected_gene": "EGFR",
+      "heatmap_keys": [
+        "expression",
+        "celltype",
+        "dataset",
+        "gene"
+      ]
+    },
+    "MET": {
+      "selected_gene": "MET",
+      "heatmap_keys": [
+        "expression",
+        "celltype",
+        "dataset",
+        "gene"
+      ]
+    },
+    "ERBB2": {
+      "selected_gene": "ERBB2",
+      "heatmap_keys": [
+        "expression",
+        "celltype",
+        "dataset",
+        "gene"
+      ]
+    },
+    "ERBB3": {
+      "selected_gene": "ERBB3",
+      "heatmap_keys": [
+        "expression",
+        "celltype",
+        "dataset",
+        "gene"
+      ]
+    }
+  }
+}
