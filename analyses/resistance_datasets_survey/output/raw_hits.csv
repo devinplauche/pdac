@@ -1,0 +1,269 @@
+source,bucket,query,count,accession,entrytype,title
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSE304710,GSE,Pan-ERBB inhibitors synergize with KRAS inhibitors in rectal cancer
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSE324125,GSE,NSCLC KRAS G12C MUTANT CELLS ARE DEPENDENT ON MUC1-C FOR RESISTANCE TO RAS(ON) INHIBITORS
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSE336609,GSE,KRAS inhibition is an effective therapy for appendiceal adenocarcinoma
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSE335219,GSE,Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSE318390,GSE,Anticancer activity of RAS-GTP inhibition in cholangiocarcinoma [Mouse_hKPR.KPCHR_Sep25]
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSE318389,GSE,Anticancer activity of RAS-GTP inhibition in cholangiocarcinoma [Mouse_iAKP_Abr24]
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSE318388,GSE,Anticancer activity of RAS-GTP inhibition in cholangiocarcinoma [Human_Abr24]
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSE303105,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities [scRNAseq-RMC-6236]
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSE315131,GSE,Single-cell RNA-seq analysis of immune microenvironment changes in pancreatic cancer following combined EZH2 and KRAS inhibition
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSE315130,GSE,"Differential mRNA expression analysis of multiple human and mouse pancreatic cancer cells and tumors after DMSO, tazemetostat, RMC-6236, or the combination treatment."
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSE315129,GSE,ChIP-seq analysis of H3K27ac changes in pancreatic cancer cells treated with EZH2 and KRAS inhibitors
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSE315010,GSE,Abrogation of Oncogenic RAS Signaling by a RAS(ON) Inhibitor Doublet Primes Immune-refractory KRASG12C-mutant NSCLC for Immune Checkpoint Blockade
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSE300712,GSE,RAS(ON) multi-selective inhibition drives anti-tumor immunity in preclinical models of NRAS-mutant melanoma
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9568544,GSM,H358-RMC-6236-R/tet-MUC1shRNA_DOX+ Rep3
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9568543,GSM,H358-RMC-6236-R/tet-MUC1shRNA_DOX+ Rep2
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9568542,GSM,H358-RMC-6236-R/tet-MUC1shRNA_DOX+ Rep1
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9568541,GSM,H358-RMC-6236R/tet-MUC1shRNA_DOX- Rep3
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9568540,GSM,H358-RMC-6236R/tet-MUC1shRNA_DOX- Rep2
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9568539,GSM,H358-RMC-6236R/tet-MUC1shRNA_DOX- Rep1
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838802,GSM,Extracted Human reads from AAP16 PDX Model treated with Vehicle control (Replicate 3)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838801,GSM,Extracted Human reads from AAP16 PDX Model treated with Vehicle control (Replicate 2)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838800,GSM,Extracted Human reads from AAP16 PDX Model treated with Vehicle control (Replicate 1)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838799,GSM,Extracted Human reads from AAP16 PDX Model treated with RMC-6236 (Replicate 2)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838798,GSM,Extracted Human reads from AAP16 PDX Model treated with RMC-6236 (Replicate 1)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838791,GSM,Extracted Human reads from AAP01 PDX Model treated with Vehicle control (Replicate 3)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838790,GSM,Extracted Human reads from AAP01 PDX Model treated with Vehicle control (Replicate 2)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838789,GSM,Extracted Human reads from AAP01 PDX Model treated with Vehicle control (Replicate 1)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838788,GSM,Extracted Human reads from AAP01 PDX Model treated with MRTX1133 (Replicate 3)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838787,GSM,Extracted Human reads from AAP01 PDX Model treated with MRTX1133 (Replicate 2)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838786,GSM,Extracted Human reads from AAP01 PDX Model treated with MRTX1133 (Replicate 1)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838807,GSM,Extracted Mouse reads from AAP16 PDX Model treated with Vehicle control (Replicate 3)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838806,GSM,Extracted Mouse reads from AAP16 PDX Model treated with Vehicle control (Replicate 2)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838805,GSM,Extracted Mouse reads from AAP16 PDX Model treated with Vehicle control (Replicate 1)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838804,GSM,Extracted Mouse reads from AAP16 PDX Model treated with RMC-6236 (Replicate 2)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838803,GSM,Extracted Mouse reads from AAP16 PDX Model treated with RMC-6236 (Replicate 1)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838797,GSM,Extracted Mouse reads from AAP01 PDX Model treated with Vehicle control (Replicate 3)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838796,GSM,Extracted Mouse reads from AAP01 PDX Model treated with Vehicle control (Replicate 2)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838795,GSM,Extracted Mouse reads from AAP01 PDX Model treated with Vehicle control (Replicate 1)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838794,GSM,Extracted Mouse reads from AAP01 PDX Model treated with MRTX1133 (Replicate 3)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838793,GSM,Extracted Mouse reads from AAP01 PDX Model treated with MRTX1133 (Replicate 2)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9838792,GSM,Extracted Mouse reads from AAP01 PDX Model treated with MRTX1133 (Replicate 1)
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9808345,GSM,HPAC Daraxonrasib
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420128,GSM,e3LL_RMC-6291+RMC-6236_8day_rep5
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420127,GSM,e3LL_RMC-6291+RMC-6236_8day_rep4
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420126,GSM,e3LL_RMC-6291+RMC-6236_8day_rep3
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420125,GSM,e3LL_RMC-6291+RMC-6236_8day_rep2
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420124,GSM,e3LL_RMC-6291+RMC-6236_8day_rep1
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420123,GSM,e3LL_RMC-6236_8day_rep5
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420122,GSM,e3LL_RMC-6236_8day_rep4
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420121,GSM,e3LL_RMC-6236_8day_rep3
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420120,GSM,e3LL_RMC-6236_8day_rep2
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420119,GSM,e3LL_RMC-6236_8day_rep1
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420108,GSM,NCI-H2122_RMC-6291+RMC-6236_8hour_rep3
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420107,GSM,NCI-H2122_RMC-6291+RMC-6236_8hour_rep2
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420106,GSM,NCI-H2122_RMC-6291+RMC-6236_8hour_rep1
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420105,GSM,NCI-H2122_RMC-6291+RMC-6236_24hour_rep3
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420104,GSM,NCI-H2122_RMC-6291+RMC-6236_24hour_rep2
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420103,GSM,NCI-H2122_RMC-6291+RMC-6236_24hour_rep1
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420102,GSM,NCI-H2122_RMC-6236_8hour_rep3
+GEO,drug_direct,RMC-6236 OR daraxonrasib,64,GSM9420101,GSM,NCI-H2122_RMC-6236_8hour_rep2
+GEO,drug_class,RAS(ON) inhibitor,457,GSE315796,GSE,Single-cell RNAseq of from murine pancreas tumor (FPC)
+GEO,drug_class,RAS(ON) inhibitor,457,GSE329475,GSE,Identifying ST6GAL1 as a novel factor for human dermal fibroblast photoaging
+GEO,drug_class,RAS(ON) inhibitor,457,GSE343545,GSE,Spatial modulation of RAF by RAF/MEK glue enables full-dose combination with pan-RAF inhibitor and potent RAS-mutant tumor-selective MAPK and growth inhibition
+GEO,drug_class,RAS(ON) inhibitor,457,GSE304710,GSE,Pan-ERBB inhibitors synergize with KRAS inhibitors in rectal cancer
+GEO,drug_class,RAS(ON) inhibitor,457,GSE327617,GSE,"ADT-030, a novel PDE10 inhibitor, demonstrates potent antitumor activity in pancreatic ductal adenocarcinoma"
+GEO,drug_class,RAS(ON) inhibitor,457,GSE271917,GSE,Identification of plasma exosomal miRNAs as predictive biomarkers for therapeutic efficacy of programmed cell death 1 (PD-1) blockade plus chemotherapy in gastric cancer patients
+GEO,drug_class,RAS(ON) inhibitor,457,GSE319338,GSE,Distinct transcriptional and functional modules mediate resistance to targeted therapy in glioblastoma
+GEO,drug_class,RAS(ON) inhibitor,457,GSE337208,GSE,scRNA seq. of PDAC models treated with Kras inhibitors in combination with checkpoint immunotherapy
+GEO,drug_class,RAS(ON) inhibitor,457,GSE336609,GSE,KRAS inhibition is an effective therapy for appendiceal adenocarcinoma
+GEO,drug_class,RAS(ON) inhibitor,457,GSE270318,GSE,ERK1/2 Inhibition Overcomes Resistance to Venetoclax in AML By Inhibiting Drp1 Dependent Mitochondrial Fission
+GEO,drug_class,RAS(ON) inhibitor,457,GSE303378,GSE,Transcriptomic profiling of bone marrow cells from CML mouse models and newly diagnosed patients treated with SOS1 inhibitor BI-3406 and/or imatinib
+GEO,drug_class,RAS(ON) inhibitor,457,GSE335219,GSE,Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer
+GEO,drug_class,RAS(ON) inhibitor,457,GSE333925,GSE,Gene expression profile of 31 RAS/RAF-wild-type colorectal cancer (CRC) stem-cell (SC)  spheroids and 7 FGFR-inhibitor resistant CSC-SC spheroids
+GEO,drug_class,RAS(ON) inhibitor,457,GSE281506,GSE,Combining Menin and MEK inhibition to target poor prognosis KMT2A-rearranged RAS pathway-mutant acute myeloid leukemia
+GEO,drug_class,RAS(ON) inhibitor,457,GSE296056,GSE,Targeting XPO1/DDX1-mediated nuclear export of R-loops in inflammaging [CUT&Run]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE296055,GSE,Targeting XPO1/DDX1-mediated nuclear export of R-loops in inflammaging [cytoDRIP-seq]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE296054,GSE,Targeting XPO1/DDX1-mediated nuclear export of R-loops in inflammaging [RIP-Seq]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE303732,GSE,An appendiceal cancer organoid biobank identifies phenotypic evolution and druggable dependencies of peritoneal carcinomatosis
+GEO,drug_class,RAS(ON) inhibitor,457,GSE280280,GSE,Reprogramming of Cellular Plasticity via ETS and MYC Core-regulatory circuits During Response to MAPK Inhibition in BRAF-mutant colorectal cancer
+GEO,drug_class,RAS(ON) inhibitor,457,GSE280266,GSE,Reprogramming of Cellular Plasticity via ETS and MYC Core-regulatory circuits During Response to MAPK Inhibition in BRAF-mutant colorectal cancer.
+GEO,drug_class,RAS(ON) inhibitor,457,GSE324062,GSE,RAS pathway activation drives clonal selection and monocytic differentiation in FLT3 and BCL2 inhibitor resistance
+GEO,drug_class,RAS(ON) inhibitor,457,GSE318390,GSE,Anticancer activity of RAS-GTP inhibition in cholangiocarcinoma [Mouse_hKPR.KPCHR_Sep25]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE318389,GSE,Anticancer activity of RAS-GTP inhibition in cholangiocarcinoma [Mouse_iAKP_Abr24]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE318388,GSE,Anticancer activity of RAS-GTP inhibition in cholangiocarcinoma [Human_Abr24]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE300358,GSE,TGFβ signaling promotes cell cycle progression and resistance to the CDK4/6 inhibitor palbociclib through SOX4 transcriptional modulation in breast cancer cells
+GEO,drug_class,RAS(ON) inhibitor,457,GSE298142,GSE,The m6A methyltransferase METTL14 promotes oncogenic Kras induced juvenile myelomonocytic leukemia through dysregulating autophagy [RNA-seq]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE298134,GSE,The m6A methyltransferase METTL14 promotes oncogenic Kras induced juvenile myelomonocytic leukemia through dysregulating autophagy
+GEO,drug_class,RAS(ON) inhibitor,457,GSE296765,GSE,Methionine metabolism and NOP2 methyltransferase are essential for MYC-Driven liver tumorigenesis
+GEO,drug_class,RAS(ON) inhibitor,457,GSE261435,GSE,Combining SHP2 inhibition with CX3CR1 inhibition shrinks tumors and normalizes the tumor microenvironment
+GEO,drug_class,RAS(ON) inhibitor,457,GSE315010,GSE,Abrogation of Oncogenic RAS Signaling by a RAS(ON) Inhibitor Doublet Primes Immune-refractory KRASG12C-mutant NSCLC for Immune Checkpoint Blockade
+GEO,drug_class,RAS(ON) inhibitor,457,GSE311611,GSE,Simultaneous Targeting of KRAS and CDK4 Synergistically Induces Durable Growth Arrest in Pancreatic Cancer Cells
+GEO,drug_class,RAS(ON) inhibitor,457,GSE300199,GSE,The Lysine Demethylase Kdm4C is an Oncogenic Driver and Regulates ERK Activity in KRAS Mutant Pancreatic Ductal Adenocarcinoma [ChIP-seq]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE300083,GSE,The Lysine Demethylase Kdm4C is an Oncogenic Driver and Regulates ERK Activity in KRAS Mutant Pancreatic Ductal Adenocarcinoma [RNA-Seq]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE287188,GSE,Effects of active-state RAS inhibition on the colorectal cancer cell transcriptome
+GEO,drug_class,RAS(ON) inhibitor,457,GSE286174,GSE,A systems approach reveals SMARCD3 regulon drives alternate growth signaling and vulnerability to MEK inhibitors in everolimus resistant breast cancer cells
+GEO,drug_class,RAS(ON) inhibitor,457,GSE306834,GSE,EC359 enhances trametinib efficacy in Ras/Raf-driven ovarian cancer by suppressing LIFR signaling
+GEO,drug_class,RAS(ON) inhibitor,457,GSE297653,GSE,Gene expression profile in diet-induced HFpEF rat model
+GEO,drug_class,RAS(ON) inhibitor,457,GSE310675,GSE,CRISPR-Cas9 Screening Identifies Resistance Mechanisms to KRAS Inhibition in Pancreatic Cancer
+GEO,drug_class,RAS(ON) inhibitor,457,GSE310880,GSE,Targeting the MEK/ERK Pathway to Suppress P-glycoprotein and Reverse Carfilzomib Resistance in Multiple Myeloma
+GEO,drug_class,RAS(ON) inhibitor,457,GSE309882,GSE,Upfront Menin-inhibitor resistance in multiply pretreated leukemias
+GEO,drug_class,RAS(ON) inhibitor,457,GSE291447,GSE,Targeting CD11b+ regulatory B cells via RAS/RAF/PI3K pathway inhibition augments response to immune checkpoint blockade or CD40 agonism in metastatic melanoma
+GEO,drug_class,RAS(ON) inhibitor,457,GSE300712,GSE,RAS(ON) multi-selective inhibition drives anti-tumor immunity in preclinical models of NRAS-mutant melanoma
+GEO,drug_class,RAS(ON) inhibitor,457,GSE292712,GSE,Fibroblast STAT3 activation drives organ-specific premetastatic niche formation
+GEO,drug_class,RAS(ON) inhibitor,457,GSE308214,GSE,CDK12 inhibition reveals melanoma dependence on the RUNX1/CBFβ complex for genomic stability
+GEO,drug_class,RAS(ON) inhibitor,457,GSE303692,GSE,A plastic EMP1⁺ to LGR5⁺ cell state conversion as a therapeutic bypass to KRAS-G12D inhibition in metastatic colorectal cancer [RNA-Seq]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE294825,GSE,A plastic EMP1⁺ to LGR5⁺ cell state conversion as a therapeutic bypass to KRAS-G12D inhibition in metastatic colorectal cancer [RNA-Seq mouse]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE294823,GSE,A plastic EMP1⁺ to LGR5⁺ cell state conversion as a therapeutic bypass to KRAS-G12D inhibition in metastatic colorectal cancer [RNA-Seq human]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE294822,GSE,A plastic EMP1⁺ to LGR5⁺ cell state conversion as a therapeutic bypass to KRAS-G12D inhibition in metastatic colorectal cancer [SLAM-Seq]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE294820,GSE,A plastic EMP1⁺ to LGR5⁺ cell state conversion as a therapeutic bypass to KRAS-G12D inhibition in metastatic colorectal cancer [scRNA-Seq]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE294819,GSE,A plastic EMP1⁺ to LGR5⁺ cell state conversion as a therapeutic bypass to KRAS-G12D inhibition in metastatic colorectal cancer [Hi-C]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE294817,GSE,A plastic EMP1⁺ to LGR5⁺ cell state conversion as a therapeutic bypass to KRAS-G12D inhibition in metastatic colorectal cancer [ATAC-Seq]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE261294,GSE,Study of the transcriptomic changes induced by Aurora A inhibition in the colorectal cancer cell line C10
+GEO,drug_class,RAS(ON) inhibitor,457,GSE262680,GSE,Targeting DDX3X suppresses progression of KRAS-driven lung cancer by disrupting antioxidative homeostasis and inducing ferroptosis
+GEO,drug_class,RAS(ON) inhibitor,457,GSE262058,GSE,Targeting DDX3X suppresses progression of KRAS-driven lung cancer by disrupting antioxidative homeostasis and inducing ferroptosis
+GEO,drug_class,RAS(ON) inhibitor,457,GSE263780,GSE,An Allele Agnostic Mutant KRAS Inhibitor Demonstrates Broad Spectrum Tumour Growth Inhibition in Pancreatic Ductal Adenocarcinoma
+GEO,drug_class,RAS(ON) inhibitor,457,GSE211278,GSE,RNA seq analysis of MEK inhibitor in combination with 5-azacitidine treated Shp2E76K/+ driven JMML mice
+GEO,drug_class,RAS(ON) inhibitor,457,GSE289759,GSE,ERK signaling promotes IKKε expression and oncogenic functions in pancreatic cancer cells in association with TBK1
+GEO,drug_class,RAS(ON) inhibitor,457,GSE303418,GSE,Selective inhibition of BRAF and CRAF sensitizes NF1-deficient malignant peripheral nerve sheath tumors to MEK inhibitors
+GEO,drug_class,RAS(ON) inhibitor,457,GSE298925,GSE,ZBTB11 Depletion Targets Metabolic Vulnerabilities in K-Ras Inhibitor Resistant PDAC [Degrader RNA-seq]
+GEO,drug_class,RAS(ON) inhibitor,457,GSE298803,GSE,ZBTB11 Depletion Targets Metabolic Vulnerabilities in K-Ras Inhibitor Resistant PDAC [CRISPRi RNA-seq]
+GEO,resistance_direct,daraxonrasib resistance,6,GSE335219,GSE,Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer
+GEO,resistance_direct,daraxonrasib resistance,6,GSE318390,GSE,Anticancer activity of RAS-GTP inhibition in cholangiocarcinoma [Mouse_hKPR.KPCHR_Sep25]
+GEO,resistance_direct,daraxonrasib resistance,6,GSE318389,GSE,Anticancer activity of RAS-GTP inhibition in cholangiocarcinoma [Mouse_iAKP_Abr24]
+GEO,resistance_direct,daraxonrasib resistance,6,GSE318388,GSE,Anticancer activity of RAS-GTP inhibition in cholangiocarcinoma [Human_Abr24]
+GEO,resistance_direct,daraxonrasib resistance,6,GSE315010,GSE,Abrogation of Oncogenic RAS Signaling by a RAS(ON) Inhibitor Doublet Primes Immune-refractory KRASG12C-mutant NSCLC for Immune Checkpoint Blockade
+GEO,resistance_direct,daraxonrasib resistance,6,GSE300712,GSE,RAS(ON) multi-selective inhibition drives anti-tumor immunity in preclinical models of NRAS-mutant melanoma
+GEO,resistance_direct,RMC-6236 resistance,12,GSE304710,GSE,Pan-ERBB inhibitors synergize with KRAS inhibitors in rectal cancer
+GEO,resistance_direct,RMC-6236 resistance,12,GSE324125,GSE,NSCLC KRAS G12C MUTANT CELLS ARE DEPENDENT ON MUC1-C FOR RESISTANCE TO RAS(ON) INHIBITORS
+GEO,resistance_direct,RMC-6236 resistance,12,GSE336609,GSE,KRAS inhibition is an effective therapy for appendiceal adenocarcinoma
+GEO,resistance_direct,RMC-6236 resistance,12,GSE335219,GSE,Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer
+GEO,resistance_direct,RMC-6236 resistance,12,GSE318390,GSE,Anticancer activity of RAS-GTP inhibition in cholangiocarcinoma [Mouse_hKPR.KPCHR_Sep25]
+GEO,resistance_direct,RMC-6236 resistance,12,GSE318389,GSE,Anticancer activity of RAS-GTP inhibition in cholangiocarcinoma [Mouse_iAKP_Abr24]
+GEO,resistance_direct,RMC-6236 resistance,12,GSE318388,GSE,Anticancer activity of RAS-GTP inhibition in cholangiocarcinoma [Human_Abr24]
+GEO,resistance_direct,RMC-6236 resistance,12,GSE303105,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities [scRNAseq-RMC-6236]
+GEO,resistance_direct,RMC-6236 resistance,12,GSE315130,GSE,"Differential mRNA expression analysis of multiple human and mouse pancreatic cancer cells and tumors after DMSO, tazemetostat, RMC-6236, or the combination treatment."
+GEO,resistance_direct,RMC-6236 resistance,12,GSE315129,GSE,ChIP-seq analysis of H3K27ac changes in pancreatic cancer cells treated with EZH2 and KRAS inhibitors
+GEO,resistance_direct,RMC-6236 resistance,12,GSE315010,GSE,Abrogation of Oncogenic RAS Signaling by a RAS(ON) Inhibitor Doublet Primes Immune-refractory KRASG12C-mutant NSCLC for Immune Checkpoint Blockade
+GEO,resistance_direct,RMC-6236 resistance,12,GSE300712,GSE,RAS(ON) multi-selective inhibition drives anti-tumor immunity in preclinical models of NRAS-mutant melanoma
+GEO,substitute,adagrasib resistance pancreatic,4,GSE292825,GSE,Methylated eEF1A Selectively Decodes mRNA to Shape Cancer Proteomes
+GEO,substitute,adagrasib resistance pancreatic,4,GSE278656,GSE,"Discovery of BBO-8520, a first-in-class direct and covalent dual inhibitor of GTP-bound (ON) and GDP-bound (OFF) KRASG12C"
+GEO,substitute,adagrasib resistance pancreatic,4,GSE269985,GSE,Mechanisms of resistance to oncogenic KRAS inhibition in pancreatic cancer
+GEO,substitute,adagrasib resistance pancreatic,4,GSE269313,GSE,Mechanisms of resistance to oncogenic KRAS inhibition in pancreatic cancer
+GEO,substitute,sotorasib resistance pancreatic,8,GSE292825,GSE,Methylated eEF1A Selectively Decodes mRNA to Shape Cancer Proteomes
+GEO,substitute,sotorasib resistance pancreatic,8,GSE311611,GSE,Simultaneous Targeting of KRAS and CDK4 Synergistically Induces Durable Growth Arrest in Pancreatic Cancer Cells
+GEO,substitute,sotorasib resistance pancreatic,8,GSE298925,GSE,ZBTB11 Depletion Targets Metabolic Vulnerabilities in K-Ras Inhibitor Resistant PDAC [Degrader RNA-seq]
+GEO,substitute,sotorasib resistance pancreatic,8,GSE298803,GSE,ZBTB11 Depletion Targets Metabolic Vulnerabilities in K-Ras Inhibitor Resistant PDAC [CRISPRi RNA-seq]
+GEO,substitute,sotorasib resistance pancreatic,8,GSE278656,GSE,"Discovery of BBO-8520, a first-in-class direct and covalent dual inhibitor of GTP-bound (ON) and GDP-bound (OFF) KRASG12C"
+GEO,substitute,sotorasib resistance pancreatic,8,GSE273116,GSE,A pan-KRAS inhibitor and its derived degrader elicit multifaceted anti-tumor efficacy in KRAS-driven cancers [bulk RNA-seq]
+GEO,substitute,sotorasib resistance pancreatic,8,GSE269985,GSE,Mechanisms of resistance to oncogenic KRAS inhibition in pancreatic cancer
+GEO,substitute,sotorasib resistance pancreatic,8,GSE269313,GSE,Mechanisms of resistance to oncogenic KRAS inhibition in pancreatic cancer
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE298318,GSE,Characterization of mechanism of action behind acquired resistance to KRASG12D Inhibition in Pancreatic Ductal Adenocarcinoma
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE293892,GSE,HDAC5 Deficiency Induces Intrinsic Resistance to KRASG12D Inhibition by Disrupting c-Myc Acetylation-Ubiquitination Homeostasis
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE303323,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities [RNA-Seq]
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE303106,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities [cut and run-ChipSeq]
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE303105,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities [scRNAseq-RMC-6236]
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE303104,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities [scRNAseq-Ulixertinib]
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE303051,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities.
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE302981,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE294216,GSE,Resistance to the KRASG12D Inhibitor MRTX1133 is Associated with Aberrant Histone Acetylation and Increased Sensitivity to BET Inhibition
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE311611,GSE,Simultaneous Targeting of KRAS and CDK4 Synergistically Induces Durable Growth Arrest in Pancreatic Cancer Cells
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE269680,GSE,CDK8 remodels the tumor microenvironment to resist the therapeutic efficacy of targeted KRASG12D inhibition in pancreatic ductal adenocarcinoma (spatial)
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE269679,GSE,CDK8 remodels the tumor microenvironment to resist the therapeutic efficacy of targeted KRASG12D inhibition in pancreatic ductal adenocarcinoma (scRNA)
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE309501,GSE,HDAC5 Deficiency Induces Intrinsic Resistance to KRASG12D Inhibition by Disrupting c-Myc Acetylation-Ubiquitination Homeostasis [ChIP-Seq]
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE309499,GSE,HDAC5 Deficiency Induces Intrinsic Resistance to KRASG12D Inhibition by Disrupting c-Myc Acetylation-Ubiquitination Homeostasis [RNA-seq]
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE293877,GSE,HDAC5 Deficiency Induces Intrinsic Resistance to KRASG12D Inhibition by Disrupting c-Myc Acetylation-Ubiquitination Homeostasis [RNA-Seq]
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE293756,GSE,PANCREATIC DUCTAL ADENOCARCINOMAS RESISTANT TO KRAS INHIBITION ARE DRUGGABLE WITH AN ANTI-MUC1-C ADC
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE290526,GSE,VEGFR2 blockade overcomes acquired KRAS G12D inhibitor resistance driven by PI3Kγ activation [scRNA-Seq]
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE290487,GSE,VEGFR2 blockade overcomes acquired KRAS G12D inhibitor resistance driven by PI3Kγ activation
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE252839,GSE,Nuclear Factor NFAT5 Governs Cellular Plasticity-Induced KRAS-Targeted Therapy Resistance in Pancreatic Cancer
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE252834,GSE,Determination of the tumor microenvironment remodeling by KRAS targeted therapy in pancreatic cancer
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE271300,GSE,A classical epithelial state drives acute resistance to KRAS inhibition in pancreas cancer
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE269985,GSE,Mechanisms of resistance to oncogenic KRAS inhibition in pancreatic cancer
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE269313,GSE,Mechanisms of resistance to oncogenic KRAS inhibition in pancreatic cancer
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSE234449,GSE,Dual inhibition of KRASG12D and pan-ERBB is synergistic in pancreatic ductal adenocarcinoma
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332094,GSM,"6419C5 MRTX1133 resistant, replicate 3"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332093,GSM,"6419C5 MRTX1133 resistant, replicate 2"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332092,GSM,"6419C5 MRTX1133 resistant, replicate 1"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332091,GSM,6419C5 parental replicate 3
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332090,GSM,6419C5 parental replicate 2
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332089,GSM,6419C5 parental replicate 1
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332088,GSM,"6499C4 MRTX1133 resistant, replicate 3"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332087,GSM,"6499C4 MRTX1133 resistant, replicate 2"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332086,GSM,"6499C4 MRTX1133 resistant, replicate 1"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332085,GSM,6499C4 parental replicate 3
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332084,GSM,6499C4 parental replicate 2
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332083,GSM,6499C4 parental replicate 1
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332082,GSM,"6694C2 MRTX1133 resistant, replicate 3"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332081,GSM,"6694C2 MRTX1133 resistant, replicate 2"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332080,GSM,"6694C2 MRTX1133 resistant, replicate 1"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332079,GSM,6694C2 parental replicate 3
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332078,GSM,6694C2 parental replicate 2
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332077,GSM,6694C2 parental replicate 1
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332076,GSM,"PANC-1 MRTX1133 resistant, replicate 3"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332075,GSM,"PANC-1 MRTX1133 resistant, replicate 2"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332074,GSM,"PANC-1 MRTX1133 resistant, replicate 1"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332073,GSM,PANC-1 parental replicate 3
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332072,GSM,PANC-1 parental replicate 2
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332071,GSM,PANC-1 parental replicate 1
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332070,GSM,"Panc 02 03 MRTX1133 resistant, replicate 3"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332069,GSM,"Panc 02.03 MRTX1133 resistant, replicate 2"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332068,GSM,"Panc 02.03 MRTX1133 resistant, replicate 1"
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332067,GSM,Panc 02.03 parental replicate 3
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332066,GSM,Panc 02.03 parental replicate 2
+GEO,substitute,MRTX1133 resistance pancreatic,54,GSM8332065,GSM,Panc 02.03 parental replicate 1
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE314343,GSE,Interference with PADI1 and PADI3 re-sensitizes KRAS-Mutant PDAC and CRC to KRAS ON/OFF Inhibitors by Promoting Non-lytic Apoptosis
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE298318,GSE,Characterization of mechanism of action behind acquired resistance to KRASG12D Inhibition in Pancreatic Ductal Adenocarcinoma
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE328107,GSE,PI3K Regulates Wild-type RAS Signaling to Confer Resistance to KRAS Inhibition
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE303323,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities [RNA-Seq]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE303106,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities [cut and run-ChipSeq]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE303105,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities [scRNAseq-RMC-6236]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE303104,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities [scRNAseq-Ulixertinib]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE303051,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities.
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE302981,GSE,Prolonged KRAS-MAPK Inhibition Induces Interferon-mediated Epithelial-to-Mesenchymal Transition and Reveals Therapeutic Opportunities
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE294216,GSE,Resistance to the KRASG12D Inhibitor MRTX1133 is Associated with Aberrant Histone Acetylation and Increased Sensitivity to BET Inhibition
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE303578,GSE,JUN is a master mediator of resistance to MAPK pathway inhibition in KRAS-mutant pancreatic ductal adenocarcinoma.
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE315130,GSE,"Differential mRNA expression analysis of multiple human and mouse pancreatic cancer cells and tumors after DMSO, tazemetostat, RMC-6236, or the combination treatment."
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE315129,GSE,ChIP-seq analysis of H3K27ac changes in pancreatic cancer cells treated with EZH2 and KRAS inhibitors
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE269680,GSE,CDK8 remodels the tumor microenvironment to resist the therapeutic efficacy of targeted KRASG12D inhibition in pancreatic ductal adenocarcinoma (spatial)
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE269679,GSE,CDK8 remodels the tumor microenvironment to resist the therapeutic efficacy of targeted KRASG12D inhibition in pancreatic ductal adenocarcinoma (scRNA)
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE310675,GSE,CRISPR-Cas9 Screening Identifies Resistance Mechanisms to KRAS Inhibition in Pancreatic Cancer
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE307328,GSE,"KRAS inhibition activates an actionable CD24 ""Don't eat me"" signal in pancreatic cancer [RNA-seq]"
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE307209,GSE,"KRAS inhibition activates an actionable CD24 ""Don't eat me"" signal in pancreatic cancer"
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE303279,GSE,KRAS Inhibition Activates an Actionable CD24 “Don’t Eat Me” Signal in Pancreatic Cancer
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE305316,GSE,KRAS Inhibition Activates an Actionable CD24 “Don’t Eat Me” Signal in Pancreatic Cancer
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE263780,GSE,An Allele Agnostic Mutant KRAS Inhibitor Demonstrates Broad Spectrum Tumour Growth Inhibition in Pancreatic Ductal Adenocarcinoma
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE263536,GSE,An Allele Agnostic Mutant KRAS Inhibitor Demonstrates Broad Spectrum Tumour Growth Inhibition in Pancreatic Ductal Adenocarcinoma
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE298925,GSE,ZBTB11 Depletion Targets Metabolic Vulnerabilities in K-Ras Inhibitor Resistant PDAC [Degrader RNA-seq]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE278112,GSE,Regulation of pancreatic cancer migration by signal convergence in the epigenome [RNA-Seq]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE278111,GSE,Regulation of pancreatic cancer migration by signal convergence in the epigenome [ChIP-Seq]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE277055,GSE,Effect of depletion of PARP2 on gene expression in 3 month-old pancreas from Ela-myc mice
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE217121,GSE,Dissection of the T-cell infiltrate in mouse pancreatic tumors reveals an extensive and diverse tumor-reactive T-cell repertoire
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE293756,GSE,PANCREATIC DUCTAL ADENOCARCINOMAS RESISTANT TO KRAS INHIBITION ARE DRUGGABLE WITH AN ANTI-MUC1-C ADC
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE290526,GSE,VEGFR2 blockade overcomes acquired KRAS G12D inhibitor resistance driven by PI3Kγ activation [scRNA-Seq]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE290487,GSE,VEGFR2 blockade overcomes acquired KRAS G12D inhibitor resistance driven by PI3Kγ activation
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE283141,GSE,Multiplexed mosaic tumor models reveal natural phenotypic variations in drug response within and between populations [8 cancer cell lines]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE282350,GSE,Multiplexed mosaic tumor models reveal natural phenotypic variations in drug response within and between populations [11 cancer cell lines]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE252834,GSE,Determination of the tumor microenvironment remodeling by KRAS targeted therapy in pancreatic cancer
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE278656,GSE,"Discovery of BBO-8520, a first-in-class direct and covalent dual inhibitor of GTP-bound (ON) and GDP-bound (OFF) KRASG12C"
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE248058,GSE,Stroma reprogramming by FAK synergizes with MAPK inhibition and renders PDAC responsive to cytotoxic- and immuno-therapies II
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE247547,GSE,Stroma reprogramming by FAK synergizes with MAPK inhibition and renders PDAC responsive to cytotoxic- and immuno-therapies
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE268242,GSE,Anti-tumor Efficacy of HRS-4642 and Its Potential Combination with Proteasome Inhibition in KRAS G12D-mutant Cancer [CRISPR]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE271300,GSE,A classical epithelial state drives acute resistance to KRAS inhibition in pancreas cancer
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE234378,GSE,Mediator Kinase Inhibition Impedes Transcriptional Plasticity and Prevents Resistance to Sustained MAPK-Targeted Therapy in KRAS-Mutant Cancers
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE269985,GSE,Mechanisms of resistance to oncogenic KRAS inhibition in pancreatic cancer
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE269313,GSE,Mechanisms of resistance to oncogenic KRAS inhibition in pancreatic cancer
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE253929,GSE,ROR2 regulates cellular plasticity in pancreatic neoplasia and adenocarcinoma [RNA-seq siROR2 ]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE253927,GSE,ROR2 regulates cellular plasticity in pancreatic neoplasia and adenocarcinoma [RNA-seq isoAC]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE253599,GSE,ROR2 regulates cellular plasticity in pancreatic neoplasia and adenocarcinoma (RNA-Seq)
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE253597,GSE,ROR2 regulates cellular plasticity in pancreatic neoplasia and adenocarcinoma (snATAC-Seq)
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE237177,GSE,Mediator Kinase Inhibition Impedes Transcriptional Plasticity and Prevents Resistance to ERK/MAPK-Targeted Therapy in KRAS-Mutant Cancers
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE264527,GSE,Reshaping the Tumor Microenvironment of KRASG12D Pancreatic Ductal Adenocarcinoma with combined SOS1 and MEK Inhibition for Improved Immunotherapy Response
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE223154,GSE,PRMT1 promotes pancreatic cancer development and resistance to chemotherapy
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE223152,GSE,PRMT1 promotes pancreatic cancer development and resistance to chemotherapy
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE223146,GSE,PRMT1 promotes pancreatic cancer development and resistance to chemotherapy
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE223133,GSE,PRMT1 promotes pancreatic cancer development and resistance to chemotherapy
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE253204,GSE,Co-targeting CDK4/6 and BRD4 promotes senescence and ferroptosis sensitivity in cancer
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE240232,GSE,Stromal-derived NRG1 enables oncogenic KRAS bypass in pancreas cancer
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE234449,GSE,Dual inhibition of KRASG12D and pan-ERBB is synergistic in pancreatic ductal adenocarcinoma
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE202532,GSE,Acquired anoikis resistance mediates enhancer-driven subtype plasticity in pancreatic cancer [RNA-seq]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE202527,GSE,Acquired anoikis resistance mediates enhancer-driven subtype plasticity in pancreatic cancer [ChIP-Seq]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE202526,GSE,Acquired anoikis resistance mediates enhancer-driven subtype plasticity in pancreatic cancer [ATAC-Seq]
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE149815,GSE,SHP2 Inhibition Abrogates Adaptive Resistance to KRAS-G12C-Inhibition and Remodels the Tumor Microenvironment of KRAS-Mutant Tumors
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE142046,GSE,SETD5-coordinated chromatin reprogramming regulates adaptive resistance to targeted pancreatic cancer therapy
+GEO,substitute,KRAS inhibition resistance pancreatic,70,GSE113922,GSE,Cell cycle plasticity driven by MTOR signaling: integral mechanism for resistance to CDK4/6 inhibition
+ENA,drug_direct,RMC-6236,error,,,Remote end closed connection without response
+ArrayExpress,drug_direct,RMC-6236,0,,,
+ENA,drug_direct,daraxonrasib,error,,,HTTP Error 400: 
+ArrayExpress,drug_direct,daraxonrasib,0,,,

@@ -1,0 +1,8 @@
+,n_genes,n_found,missing
+myCAF,6,6,[]
+iCAF,6,6,[]
+apCAF,5,5,[]
+SASP,14,13,['Mmp1a']
+matrisome_core,19,19,[]
+MAPK_targets,9,9,[]
+RASON_inhibition_PD,7,7,[]
