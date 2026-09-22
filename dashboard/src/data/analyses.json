@@ -3,84 +3,84 @@
     {
       "caveats": [
         "TISCH2 values are precomputed means; no per-cell distributions or differential-expression statistics.",
-        "One dataset (PAAD_GSE162708) shows inverted fibroblast/malignant ordering for EGFR/ERBB2 \u2014 likely an annotation artifact; the cross-dataset mean is robust to it.",
+        "One dataset (PAAD_GSE162708) shows inverted fibroblast/malignant ordering for EGFR/ERBB2 — likely an annotation artifact; the cross-dataset mean is robust to it.",
         "Baseline expression is not inducibility. This only clears the prerequisite; the actual upregulation must be tested in the daraxonrasib-treated CAF time course."
       ],
       "figure": "/figures/rtk_fibroblast_vs_malignant.png",
       "figure_caption": "Mean log-normalized expression of EGFR, MET, ERBB2, ERBB3 in fibroblasts vs malignant cells across TISCH2 PAAD datasets.",
       "findings": [
-        "All four RTKs (EGFR, MET, ERBB2, ERBB3) are detectable in fibroblasts across 7\u20139 independent human PDAC scRNA-seq datasets.",
-        "Expression is consistently lower than in malignant cells: EGFR 2.3\u00d7 lower, ERBB2 2.6\u00d7 lower, ERBB3 23\u00d7 lower, MET 20\u00d7 lower (mean log-normalized values).",
-        "EGFR and ERBB2 have the most robust baseline fibroblast signal (present in every dataset) \u2014 the best candidates for testing the CAF-upregulation hypothesis in vitro.",
+        "All four RTKs (EGFR, MET, ERBB2, ERBB3) are detectable in fibroblasts across 7–9 independent human PDAC scRNA-seq datasets.",
+        "Expression is consistently lower than in malignant cells: EGFR 2.3× lower, ERBB2 2.6× lower, ERBB3 23× lower, MET 20× lower (mean log-normalized values).",
+        "EGFR and ERBB2 have the most robust baseline fibroblast signal (present in every dataset) — the best candidates for testing the CAF-upregulation hypothesis in vitro.",
         "MET and ERBB3 sit near the detection floor in fibroblasts, so any treatment-induced fold change there would need high-sensitivity assays to see."
       ],
       "question": "Daraxonrasib upregulates EGFR, MET, ERBB2/HER2 and ERBB3 on PDAC tumor cells. Step zero for a resistant-CAF hypothesis: do cancer-associated fibroblasts express these receptors at all in untreated human PDAC?",
       "slug": "rtk_in_cafs",
       "status": "complete",
-      "summary": "Baseline receptor check across 7\u20139 human PDAC scRNA-seq datasets (TISCH2). All four RTKs are detectable in fibroblasts, consistently below malignant-cell levels (2\u201323\u00d7 lower). EGFR and ERBB2 have the most robust fibroblast signal; MET and ERBB3 are barely detectable.",
+      "summary": "Baseline receptor check across 7–9 human PDAC scRNA-seq datasets (TISCH2). All four RTKs are detectable in fibroblasts, consistently below malignant-cell levels (2–23× lower). EGFR and ERBB2 have the most robust fibroblast signal; MET and ERBB3 are barely detectable.",
       "title": "Do PDAC CAFs express the daraxonrasib-induced RTKs?"
     },
     {
       "caveats": [
-        "Power is computed from observed (post-hoc) effect sizes \u2014 optimistic for the big hits, which is why the recommendation is to reduce replicates there rather than claim a powered discovery.",
+        "Power is computed from observed (post-hoc) effect sizes — optimistic for the big hits, which is why the recommendation is to reduce replicates there rather than claim a powered discovery.",
         "Log2 t-test assumes roughly log-normal data; reasonable for ELISA concentrations in range.",
         "The BU line's DMSO and all BU treatments sit near the assay floor, so fold changes there are noisy."
       ],
       "figure": null,
       "figure_caption": null,
       "findings": [
-        "The 100 nM 5-day hits (AZ 15.1\u00d7, GOL 205 20.1\u00d7, GOL 321 2.6\u00d7) are at ~100% power with triplicates; they can be run at n=2\u20133.",
-        "The GOL 321 'weak' 2.6\u00d7 effect is not weak for power purposes \u2014 its triplicates were tight (SD 0.11 on log2 scale), so n=2\u20133 already detects it.",
-        "AZ 10 nM daily is the expensive condition (n=11 for 80% power) because of high-CV triplicates \u2014 cleaner technicals or dropping it saves the most wells. GOL 205 10 nM 5-day needs n=25 (small 1.6\u00d7 effect, moderate variance).",
+        "The 100 nM 5-day hits (AZ 15.1×, GOL 205 20.1×, GOL 321 2.6×) are at ~100% power with triplicates; they can be run at n=2–3.",
+        "The GOL 321 'weak' 2.6× effect is not weak for power purposes — its triplicates were tight (SD 0.11 on log2 scale), so n=2–3 already detects it.",
+        "AZ 10 nM daily is the expensive condition (n=11 for 80% power) because of high-CV triplicates — cleaner technicals or dropping it saves the most wells. GOL 205 10 nM 5-day needs n=25 (small 1.6× effect, moderate variance).",
         "GOL 321 10 nM daily ('n=24') is not a real design target: one near-zero replicate explodes the log2 SD, so powering against that outlier is meaningless. Re-run cleanly or exclude.",
-        "BU 5-day conditions are flat (0.88\u20130.91\u00d7) \u2014 powered to detect nothing; keep only as controls. GOL 205 10 nM daily reads zero (assay floor, no variance to power against)."
+        "BU 5-day conditions are flat (0.88–0.91×) — powered to detect nothing; keep only as controls. GOL 205 10 nM daily reads zero (assay floor, no variance to power against)."
       ],
       "question": "The first IL-6 ELISA round showed strong daraxonrasib-driven IL-6 induction in some CAF lines/conditions and noisy flat ones in others. How many replicates per condition does the repeat need for 80% power?",
       "slug": "il6_power_analysis",
       "status": "complete",
-      "summary": "Two-sample t-test on log2 concentrations (\u03b1 = 0.05, 80% power, conservative variance). The three 100 nM 5-day hits are already saturated at triplicates \u2014 run them at n=2\u20133 and spend plate space on the noisy daily-dose conditions (AZ 10 nM daily needs n=11). The constraint is noise, not effect size.",
+      "summary": "Two-sample t-test on log2 concentrations (α = 0.05, 80% power, conservative variance). The three 100 nM 5-day hits are already saturated at triplicates — run them at n=2–3 and spend plate space on the noisy daily-dose conditions (AZ 10 nM daily needs n=11). The constraint is noise, not effect size.",
       "title": "IL-6 ELISA: sizing the repeat (power analysis)"
     },
     {
       "caveats": [
         "Mean z-score on bulk TPM is fine for condition contrasts, not a per-cell classifier; a rank method is provided for scRNA-seq inputs.",
-        "The iCAF signature is the weakest link here (6 mouse genes; Il6/Has1 near-zero in vitro at 32 h) \u2014 scores track Cxcl1/Ly6c1/Col14a1.",
+        "The iCAF signature is the weakest link here (6 mouse genes; Il6/Has1 near-zero in vitro at 32 h) — scores track Cxcl1/Ly6c1/Col14a1.",
         "v1 myCAF/iCAF/apCAF markers are the main-text core sets from Elyada 2019; a v2 could expand from the full DE tables."
       ],
       "figure": "/figures/signature_scores_by_condition.png",
       "figure_caption": "Signature scores by condition in GSE291118 (myCAF, iCAF, SASP, matrisome, MAPK output across the four treatment arms).",
       "findings": [
-        "Macropinocytosis blockade under metabolic stress drives myCAF\u2192iCAF transition plus stromal remodeling (EIPA vs vehicle): myCAF down, SASP up, MAPK-output up, matrisome down, apCAF up \u2014 all at p=0.0079 (minimum achievable with n=5/group). Gene-level: Acta2 533\u2192108 TPM, Col1a1 675\u2192262 TPM.",
-        "Metabolic stress alone induces the iCAF program only partially: it erodes myCAF identity (p=0.0079) but dampens baseline inflammatory transcripts (iCAF/SASP down) at the 32 h bulk timepoint. The inflammatory gain appears only once the macropinocytosis brake is removed \u2014 consistent with the paper's own model.",
-        "IL-1\u03b1 positive control passed (iCAF up p=0.0079, SASP up p=0.0159), validating the scorer against the canonical iCAF inducer.",
+        "Macropinocytosis blockade under metabolic stress drives myCAF→iCAF transition plus stromal remodeling (EIPA vs vehicle): myCAF down, SASP up, MAPK-output up, matrisome down, apCAF up — all at p=0.0079 (minimum achievable with n=5/group). Gene-level: Acta2 533→108 TPM, Col1a1 675→262 TPM.",
+        "Metabolic stress alone induces the iCAF program only partially: it erodes myCAF identity (p=0.0079) but dampens baseline inflammatory transcripts (iCAF/SASP down) at the 32 h bulk timepoint. The inflammatory gain appears only once the macropinocytosis brake is removed — consistent with the paper's own model.",
+        "IL-1α positive control passed (iCAF up p=0.0079, SASP up p=0.0159), validating the scorer against the canonical iCAF inducer.",
         "Gene coverage on the matrix: 6/6 myCAF, 6/6 iCAF, 5/5 apCAF, 19/19 matrisome, 9/9 MAPK, 7/7 RAS-ON PD, 13/14 SASP.",
-        "Plot twist worth knowing: GSE291118 is not a KRAS-inhibitor dataset \u2014 it's about metabolic stress and macropinocytosis in CAFs. The MAPK/RAS-ON signatures are the bridge to the daraxonrasib work."
+        "Plot twist worth knowing: GSE291118 is not a KRAS-inhibitor dataset — it's about metabolic stress and macropinocytosis in CAFs. The MAPK/RAS-ON signatures are the bridge to the daraxonrasib work."
       ],
       "question": "Can we build a versioned, citable set of CAF-subtype and RAS-inhibition signatures, validate a reusable scorer, and reproduce a published CAF-subtype result with it?",
       "slug": "signature_panel",
       "status": "complete",
-      "summary": "Built signatures_v1.yaml (7 signatures: myCAF, iCAF, apCAF, SASP, core matrisome, MAPK output, RAS(ON)-inhibition PD readout) with PubMed-verified provenance, plus a reusable CLI scorer. Validated by reproducing Zhang et al., Cancer Cell 2025 (GSE291118): blocking macropinocytosis drives the myCAF\u2192iCAF transition exactly as reported, and the IL-1\u03b1 positive control confirms the scorer. One claim reproduced only partially \u2014 reported honestly.",
+      "summary": "Built signatures_v1.yaml (7 signatures: myCAF, iCAF, apCAF, SASP, core matrisome, MAPK output, RAS(ON)-inhibition PD readout) with PubMed-verified provenance, plus a reusable CLI scorer. Validated by reproducing Zhang et al., Cancer Cell 2025 (GSE291118): blocking macropinocytosis drives the myCAF→iCAF transition exactly as reported, and the IL-1α positive control confirms the scorer. One claim reproduced only partially — reported honestly.",
       "title": "CAF signature compendium + GSE291118 reproduction"
     },
     {
       "caveats": [
         "The NEJM phase 1/2 trial paper's data-sharing statement is unverified (subscription-only).",
         "Publication links for the newest deposits were verified 2026-09-18; re-verify before reuse in a thesis.",
-        "GSE336609 (appendiceal PDX, normal\u2192iCAF shift after KRAS inhibition) withholds raw data for patient privacy \u2014 processed only."
+        "GSE336609 (appendiceal PDX, normal→iCAF shift after KRAS inhibition) withholds raw data for patient privacy — processed only."
       ],
       "figure": null,
       "figure_caption": null,
       "findings": [
-        "No public omics of daraxonrasib-resistant PDAC exists. The flagship resistance paper (Aronchik et al., Nature Medicine, Aug 2026) deposited only 2 WES samples (parental vs resistant HPAC xenografts) as MAF files \u2014 the 44-patient ctDNA data are not deposited anywhere.",
+        "No public omics of daraxonrasib-resistant PDAC exists. The flagship resistance paper (Aronchik et al., Nature Medicine, Aug 2026) deposited only 2 WES samples (parental vs resistant HPAC xenografts) as MAF files — the 44-patient ctDNA data are not deposited anywhere.",
         "Nothing is under controlled access: the paper's data-availability statement mentions no dbGaP/EGA. Patient data availability is deferred to the NEJM phase 1/2 trial paper (unverified, likely sponsor-mediated).",
-        "Best public PDAC comparator: GSE269985 \u2014 multi-model KRAS-inhibitor resistance (MRTX1133) with KRAS/MYC/MET/EGFR/CDK6 amps, EMT and PI3K themes mirroring daraxonrasib resistance.",
-        "Best dataset for her CAF angle: GSE337208 \u2014 in vivo KPC scRNA-seq under RMC-6236 with stromal/CAF populations intact (short-term treatment, not resistance).",
-        "Only true RMC-6236-resistant line with omics found: GSE324125 (H358 NSCLC) \u2014 usable as a RAS(ON)-resistance expression signature, wrong tissue."
+        "Best public PDAC comparator: GSE269985 — multi-model KRAS-inhibitor resistance (MRTX1133) with KRAS/MYC/MET/EGFR/CDK6 amps, EMT and PI3K themes mirroring daraxonrasib resistance.",
+        "Best dataset for her CAF angle: GSE337208 — in vivo KPC scRNA-seq under RMC-6236 with stromal/CAF populations intact (short-term treatment, not resistance).",
+        "Only true RMC-6236-resistant line with omics found: GSE324125 (H358 NSCLC) — usable as a RAS(ON)-resistance expression signature, wrong tissue."
       ],
-      "question": "Is there a public omics dataset of daraxonrasib-resistant PDAC that can serve as the tumor-cell comparator for the resistance chapter \u2014 or must resistant Capan-1/KP-4 lines be generated?",
+      "question": "Is there a public omics dataset of daraxonrasib-resistant PDAC that can serve as the tumor-cell comparator for the resistance chapter — or must resistant Capan-1/KP-4 lines be generated?",
       "slug": "resistance_datasets_survey",
       "status": "complete",
-      "summary": "Searched GEO, ArrayExpress and ENA (269 raw hits, 16 curated datasets). Verdict: no public omics of daraxonrasib-resistant PDAC exists \u2014 generating her own resistant lines is justified and fills a genuine gap. The flagship Aronchik et al., Nature Medicine 2026 paper deposited only 2 WES samples; nothing sits under controlled access. Best free comparator: GSE269985 (multi-model PDAC KRAS-inhibitor resistance). Best CAF-angle dataset: GSE337208 (RMC-6236-treated KPC scRNA-seq with stromal populations).",
+      "summary": "Searched GEO, ArrayExpress and ENA (269 raw hits, 16 curated datasets). Verdict: no public omics of daraxonrasib-resistant PDAC exists — generating her own resistant lines is justified and fills a genuine gap. The flagship Aronchik et al., Nature Medicine 2026 paper deposited only 2 WES samples; nothing sits under controlled access. Best free comparator: GSE269985 (multi-model PDAC KRAS-inhibitor resistance). Best CAF-angle dataset: GSE337208 (RMC-6236-treated KPC scRNA-seq with stromal populations).",
       "title": "Daraxonrasib resistance datasets: what exists publicly?"
     },
     {
@@ -88,23 +88,203 @@
       "status": "complete",
       "title": "Mining GSE337208: CAF subtype shifts under RMC-6236",
       "question": "Does RMC-6236 remodel CAF subtype identity (myCAF/iCAF/apCAF, SASP, matrisome) in vivo? Scoring the KPC single-cell fibroblasts from GSE337208 (Mahadevan et al., Nat Commun 2026) with the validated signature panel.",
-      "summary": "Scored fibroblast/CAF cells from murine KPC PDAC (GSE337208, Mahadevan et al., Nat Commun 2026) treated with RMC-6236 or MRTX1133 \u00b1 immunotherapy, using the repo's validated signature scorer. RMC-6236 pushes CAFs myCAF\u2192iCAF/apCAF in vivo, but the drug's own MAPK pharmacodynamic readout doesn't register in fibroblasts \u2014 the reprogramming looks indirect. Combination arms nearly erased the captured fibroblast compartment.",
+      "summary": "Scored fibroblast/CAF cells from murine KPC PDAC (GSE337208, Mahadevan et al., Nat Commun 2026) treated with RMC-6236 or MRTX1133 ± immunotherapy, using the repo's validated signature scorer. RMC-6236 pushes CAFs myCAF→iCAF/apCAF in vivo, but the drug's own MAPK pharmacodynamic readout doesn't register in fibroblasts — the reprogramming looks indirect. Combination arms nearly erased the captured fibroblast compartment.",
       "findings": [
-        "Primary contrast (KPC2 RMC-6236 vs vehicle, 53 vs 42 fibroblasts, per-cell Mann\u2013Whitney U): myCAF down (p=0.012), iCAF up (p=0.0005), apCAF up (p=0.0002) \u2014 the myCAF\u2192iCAF direction now shown in PDAC itself, matching the appendiceal KRAS-inhibition precedent (GSE336609).",
-        "The drug's MAPK pharmacodynamic readout (Dusp6/Spry/Etv) did not move in fibroblasts at day 14 \u2014 CAF reprogramming here is likely indirect (tumor-cell signaling or microenvironmental cues), not direct MAPK suppression in CAFs.",
-        "Stromal collapse: fibroblast fraction fell 15.9%\u21922.6% under MRTX1133, and the RMC-6236+anti-CTLA4 / +anti-PD1 arms captured zero fibroblasts. Depletion vs dissociation bias is unresolvable at n=1 \u2014 a methods warning for her own combination experiments.",
+        "Primary contrast (KPC2 RMC-6236 vs vehicle, 53 vs 42 fibroblasts, per-cell Mann–Whitney U): myCAF down (p=0.012), iCAF up (p=0.0005), apCAF up (p=0.0002) — the myCAF→iCAF direction now shown in PDAC itself, matching the appendiceal KRAS-inhibition precedent (GSE336609).",
+        "The drug's MAPK pharmacodynamic readout (Dusp6/Spry/Etv) did not move in fibroblasts at day 14 — CAF reprogramming here is likely indirect (tumor-cell signaling or microenvironmental cues), not direct MAPK suppression in CAFs.",
+        "Stromal collapse: fibroblast fraction fell 15.9%→2.6% under MRTX1133, and the RMC-6236+anti-CTLA4 / +anti-PD1 arms captured zero fibroblasts. Depletion vs dissociation bias is unresolvable at n=1 — a methods warning for her own combination experiments.",
         "Secondary: MRTX1133+anti-CTLA4 suppressed apCAF/MAPK/PD signatures in the remaining fibroblasts (KPC3).",
-        "Genuine extension: the Mahadevan et al. paper is T-cell-centric \u2014 the fibroblast compartment was never scored, so this analysis adds something the paper didn't."
+        "Genuine extension: the Mahadevan et al. paper is T-cell-centric — the fibroblast compartment was never scored, so this analysis adds something the paper didn't."
       ],
       "caveats": [
         "n=1 sample per arm: cell-level p-values are pseudoreplicated; no sample-level inference is possible.",
         "Fibroblasts identified heuristically (k-means on a 16-gene panel); the study provides no author cell annotations.",
-        "iCAF genes are sparsely detected in scRNA-seq (the signature panel's known weak link) \u2014 the iCAF score rides on few genes per cell.",
-        "10\u201314 day treatment = short-term response, not acquired resistance.",
-        "Zero fibroblasts captured in the combo arms \u2014 stromal depletion vs dissociation artifact cannot be distinguished here."
+        "iCAF genes are sparsely detected in scRNA-seq (the signature panel's known weak link) — the iCAF score rides on few genes per cell.",
+        "10–14 day treatment = short-term response, not acquired resistance.",
+        "Zero fibroblasts captured in the combo arms — stromal depletion vs dissociation artifact cannot be distinguished here."
       ],
       "figure": "/figures/fig1_kpc2_cell_scores.png",
       "figure_caption": "Per-cell signature scores in KPC2 fibroblasts, RMC-6236 vs vehicle (53 vs 42 cells): myCAF down, iCAF and apCAF up."
+    },
+    {
+      "caveats": [
+        "Simple stats (Welch t on log2 CPM/TPM+1, no DESeq2/edgeR); n=3 per line-condition — treat signatures as hypothesis-generating.",
+        "The 14-gene human PDAC signature is thin because pooling two lines is conservative; a seed, not a panel.",
+        "No true H358 parental-vs-RMC-6236 comparison exists in the deposit — the 'RMC-6236 signature' is a MUC1-C-dependency program inside resistant cells; claiming resistance per se overreaches.",
+        "Cross-species mapping is naive (mouse symbols upper-cased); the in vivo KPC arm (GSE269313, snRNAseq, has stroma) was infeasible here (RDS objects, no R in sandbox).",
+        "Transfer negatives are underpowered (n=3+3 in H358), but near-identical T2 means and near-zero gene overlap make 'no transfer' the right read, not just 'couldn't detect'."
+      ],
+      "figure": "/figures/volcano_GSE269985_mouse.png",
+      "figure_caption": "Volcano plot of resistant vs parental DEGs in the GSE269985 mouse (KPC) arm: 102 up, 319 down at |log2FC|≥1, FDR<0.05.",
+      "findings": [
+        "GSE269985 mouse (KPC) arm: 102 up + 319 down genes pass |log2FC|≥1, FDR<0.05 across 3 lines; top up Ifitm3 (+3.7), Sema3a (+3.6); top down S100g (−4.1), plus a xenobiotic-detox block (Ugt2b34/35, Sult1c2, Gstt1, Cyp2c65). CDK6 up +2.0 (padj 0.069, just misses FDR) matches the source paper's CDK6-amplification theme.",
+        "GSE269985 human arm: only 13 up + 1 down survive pooling two lines (MME +3.1–3.4, FHL1 +3.7, TLE4 +1.8, ALPG down); direction-concordant in both PANC-1 and Panc 02.03. KRAS mRNA is flat (+0.09, padj 1.0) — bulk RNA cannot see genomic amplifications.",
+        "GSE324125 deposited no parental H358, so there is no parental-vs-resistant comparison: 93 genes are MUC1-C-supported (MAP2, NPNT, CHI3L1 down on knockdown) and 186 de-repressed (MAP2K3, PLK3) inside already-resistant cells.",
+        "Transfer is negative both ways: H358 MUC1-program on PDAC resistant-vs-parental scores p=0.82 (human) / p=0.54 (mouse); PDAC-UP program on H358 DOX− vs DOX+ gives identical means 0.647 vs 0.646, p=1.0. Gene-level overlap is near-nil (only MAP2 shared with KPC-UP orthologs). Positive controls on own data confirm the test works (p=0.002 / 0.0004).",
+        "The KPC signature (n=18, 3 lines) is the strongest public-data KRASi-resistance expression signature available; a proposed v2 addition lives in output/signatures_v2_proposed_additions.yaml."
+      ],
+      "question": "Can we derive bulk-RNA expression signatures of acquired KRAS-inhibitor resistance from public GEO data — a PDAC signature from GSE269985 (MRTX1133) and an RMC-6236 signature from GSE324125 (H358 NSCLC) — and does the drug-specific signal transfer across tissue?",
+      "slug": "resistance_signatures",
+      "status": "complete",
+      "summary": "Derived pooled KRASi-resistance DEG signatures from GSE269985 (human 14 genes; KPC mouse 102 up / 319 down, n=18) and a MUC1-C dependency program from the only deposited RMC-6236-resistant line (H358, GSE324125). Cross-tissue transfer tests were cleanly negative (Mann–Whitney p=0.82/0.54 for the H358 program on PDAC resistant-vs-parental, p=1.0 reverse), so the H358-derived resistance genes should not be used as priors for PDAC.",
+      "title": "Public-data KRAS-inhibitor resistance expression signatures"
+    },
+    {
+      "caveats": [
+        "Bulk stromal signal, not single-cell: fibroblasts cannot be resolved from other host cells; scRNA-seq was never deposited (raw data withheld for patient privacy).",
+        "Tiny n (3v3 and 2v3): per-sample Mann–Whitney cannot reach p<0.05; significance leans on gene-level signed-rank where genes are not independent.",
+        "Drug confound: MRTX1133 (G12D-selective) vs RMC-6236 (pan-KRAS) differ in direct stromal engagement — model, drug, and tissue are fully confounded.",
+        "Appendiceal ≠ PDAC: even a positive result would be cross-tissue corroboration, not PDAC validation. AAP16's tumor compartment is too ablated to assess tumor PD."
+      ],
+      "figure": "/figures/fig1_stromal_caf_scores.png",
+      "figure_caption": "Per-sample stromal (mouse-read) signature scores for both models: myCAF collapses coherently under MRTX1133 (AAP01) but not under RMC-6236 (AAP16).",
+      "findings": [
+        "myCAF suppression replicates in AAP01 (MRTX1133, n=3v3): all 6 member genes down coherently (median log2FC −1.82, signed-rank p=0.031), while pan-fibroblast markers stay flat (Col1a1 −0.37) — the contractile program relaxes without fibroblast depletion.",
+        "The AAP01 effect is tumor-mediated: MRTX1133 is G12D-selective so it cannot directly engage WT-KRAS stroma, yet myCAF collapses — consistent with the thesis idea that tumor-cell KRAS inhibition relaxes neighboring myofibroblasts.",
+        "iCAF does not induce coherently in AAP01 (Il6/Cxcl1 rise but Clec3b/Has1/Ly6c1 flat, Col14a1 falls); in AAP16 (RMC-6236) an inflammatory program rises (Il6 +3.53, Cxcl1 +3.23, SASP p=0.017) but tracks myeloid infiltration (Ptprc +1.28) — fibroblast reprogramming vs myeloid influx cannot be separated in bulk.",
+        "apCAF does not replicate: MHC-II genes barely move or fall while Saa3/Slpi spike — an acute-phase signal, not antigen presentation.",
+        "The G12D-selective arm is the informative design lesson: it isolates tumor-mediated stromal effects from direct stromal KRAS inhibition — co-culture follow-ups should include both a G12D-selective and an RMC-6236 arm."
+      ],
+      "question": "Does KRAS inhibition drive the same myCAF→iCAF stromal shift seen with RMC-6236 in PDAC KPC fibroblasts, in an independent tissue/model? Scoring host-stroma bulk RNA from human appendiceal adenocarcinoma PDX (GSE336609, Shen et al., J Hematol Oncol 2026).",
+      "slug": "gse336609_caf_scoring",
+      "status": "complete",
+      "summary": "Scored bulk mouse-stroma signal from two appendiceal PDX models (± MRTX1133, ± RMC-6236) with the validated signature panel. The myCAF-suppression leg replicates under MRTX1133 — all 6 contractile genes down (Acta2 −2.92, Tagln −2.66), gene signed-rank p=0.031, pan-fibroblast markers flat — but iCAF and apCAF do not cleanly replicate, and the paper's scRNA-seq was never deposited, so this bulk stromal test is weaker than the fibroblast-resolved PDAC result by design.",
+      "title": "Cross-tissue CAF scoring under KRAS inhibition (GSE336609)"
+    },
+    {
+      "caveats": [
+        "n=1 sample/arm: all fold changes are descriptive; no statistical test possible and single-sample idiosyncrasies cannot be ruled out.",
+        "Single post-treatment snapshot: a transient ligand pulse (hours) would be invisible.",
+        "scRNA dropout: 'absent' means 'not detected', not 'not there' — especially for low-abundance cytokines.",
+        "Coarse k-means compartments: rare ligand-producing myeloid subsets are diluted in the immune pseudobulk; the RMC-6236 epithelial compartment is small (261 cells)."
+      ],
+      "figure": "/figures/fig1_ligand_log2fc.png",
+      "figure_caption": "log2 fold changes of the 9 candidate ligands in epithelial and immune compartments, KPC2 RMC-6236 vs vehicle: nothing moves.",
+      "findings": [
+        "All 9 candidate ligands are flat in KPC2 RMC-6236 vs vehicle (n=1/arm, descriptive): epithelial largest Il1b 0.08 / Lif −0.09; immune largest Tnf 0.16 / Il1a 0.16 / Osm −0.10 — nothing approaches the |0.5| threshold.",
+        "Il6 is essentially absent from tumor and immune compartments (CP10k 0.00–0.03); in this dataset Il6 is a fibroblast (iCAF) product, not a paracrine signal.",
+        "Receptor landscape on KPC2 fibroblasts: Il1r1 clearly expressed (6.1/12.4 CP10k, rises with drug) — IL-1 remains the most testable axis — while Il6ra (0.15/0.27) and Cxcr2 (0.02/0.36) are effectively absent; Osmr, gp130, and TNF receptors are present.",
+        "Secondary positive-control pattern: KPC1 under MRTX1133 shows coordinated immune ligand dampening (Il1b −2.99, Cxcl1 −0.92, Tnf −0.60) — the inflammatory milieu is drug-responsive in one model, but it's a different drug and model, not evidence about RMC-6236 in KPC2.",
+        "For the wet lab: test IL-1R blockade as a *permissive* (not drug-driven) hypothesis and include a TGFβ-axis arm given the myCAF-loss pattern."
+      ],
+      "question": "If CAF reprogramming under RMC-6236 is indirect (the drug's MAPK readout doesn't move in fibroblasts), which candidate iCAF-inducing ligands change in the tumor or immune compartments of KPC2 under RMC-6236? Testing IL-1, IL-6 family, Cxcl1, Csf2/3, Tnf axes.",
+      "slug": "gse337208_ligand_receptor",
+      "status": "complete",
+      "summary": "Negative result: none of the 9 candidate ligands move in either non-fibroblast compartment of KPC2 under RMC-6236 (all |log2FC|≤0.16, below the 0.5 threshold). The receptor check does add one structural fact — Il6ra is effectively absent on these fibroblasts (gp130 present, IL-6Rα absent), so canonical IL-6→fibroblast signaling can't run, and Cxcr2 is absent too. This pushes the indirect-reprogramming hypothesis toward loss of a myCAF-maintaining signal (e.g. TGFβ withdrawal) rather than gain of an iCAF inducer.",
+      "title": "Ligand–receptor search for the indirect-reprogramming hypothesis"
+    },
+    {
+      "caveats": [
+        "95 cells, no real trajectory inference: the axis is assumed from the score difference, not learned from branching structure; the cells may be two overlapping populations.",
+        "Pseudotime is heavily confounded with treatment (W1 = 19 veh/5 RMC-6236; W4 = 20 RMC-6236/4 veh) — a gene 'rising along pseudotime' may simply be drug-induced.",
+        "Il6/Cxcl1 dropout: absence of a trend may be technical rather than biological.",
+        "Nominal p-values from 12,007 Spearman tests on 95 non-independent cells; FDR values are reference only."
+      ],
+      "figure": "/figures/fig2_top_gene_trends.png",
+      "figure_caption": "Gene expression trends of top genes along the myCAF→iCAF pseudotime windows (W1 myCAF-like → W4 iCAF-like): complement/IFN genes rise, contractile apparatus genes fall.",
+      "findings": [
+        "159 genes pass FDR<0.05 (12,007 Spearman tests): rising toward the iCAF end are complement components (C3 ρ=0.43, C1ra, C1s1) and interferon-associated genes (Gbp2 ρ=0.45, H2-K1 ρ=0.45, Psmb10) — an interferon/complement-flavored inflammatory program, plus Clec3b (ρ=0.53), Add3, Dcn.",
+        "Il6 and Cxcl1 do not track the axis (Il6 ρ=−0.07 p=0.53; Cxcl1 ρ=−0.02 p=0.82): the iCAF-score rise is carried by Clec3b/Ly6c1/Has1/complement — either dropout of low-abundance cytokines or a genuinely Il6-independent inflammatory flavor.",
+        "Falling toward the myCAF end: coordinated disassembly of the contractile apparatus (Tagln, Acta2, Tpm4, Tln2) and focal-adhesion/ECM-remodeling machinery (Col12a1, Col5a1, Thbs2, Tnc, Mmp2, Mmp14), plus Ncam1 (ρ=−0.61) and the hypoxia-linked Ndufa4l2 (ρ=−0.57).",
+        "The myCAF-loss-as-coordinated-disassembly pattern is consistent with withdrawal of a TGFβ maintenance signal rather than addition of an inflammatory signal — tying back to the negative ligand search.",
+        "Priority validation targets: Ncam1 and Ndufa4l2 (strongest non-signature myCAF-end markers), the Gbp2/Irf interferon axis upstream of the complement program, and C3 as a possible fibroblast→tumor feedback signal."
+      ],
+      "question": "Can the 95 KPC2 fibroblasts (53 RMC-6236, 42 vehicle) be ordered along a myCAF→iCAF axis, and which genes change along it?",
+      "slug": "kpc2_fibroblast_pseudotime",
+      "status": "complete",
+      "summary": "Ordered the 95 fibroblasts by iCAF-minus-myCAF score (4 quartile windows; PC1 sensitivity check agrees only moderately, r=0.57). The iCAF end is complement/IFN-flavored — C3 (FDR 4.3e-3), C1ra, C1s1, Gbp2 (2.1e-3), H2-K1, Psmb10 — while canonical iCAF cytokines Il6 (ρ=−0.07, p=0.53) and Cxcl1 (ρ=−0.02, p=0.82) do not track the axis at all. The myCAF end loses the contractile apparatus (Tagln ρ=−0.63, FDR 9.7e-8) and ECM-remodeling machinery. Critical confound: pseudotime tracks treatment (W4 = 20 RMC-6236 / 4 vehicle), so 'state' and 'drug effect' cannot be separated.",
+      "title": "Pseudotime ordering of KPC2 fibroblasts along myCAF→iCAF"
+    },
+    {
+      "caveats": [
+        "Bulk scoring cannot resolve cell-type proportions: a high iCAF score can mean more iCAFs, more inflammatory signaling per fibroblast, or inflammatory tumor cells — these are 'CAF-signature-high bulk tumor' claims.",
+        "TCGA-PAAD is untreated baseline, not daraxonrasib — says nothing about how RAS(ON) inhibition reshapes CAF states.",
+        "Median split is arbitrary; no multivariable adjustment (grade, margin, adjuvant therapy, molecular subtype). n=176 with ~100 events can miss modest effects.",
+        "Immune/stromal scores are naive mean-z marker sets — no deconvolution, no purity correction.",
+        "Histologic heterogeneity (neuroendocrine, mucinous cases included); stage analysis dominated by resected stage-II disease."
+      ],
+      "figure": "/figures/fig_survival_km.png",
+      "figure_caption": "Kaplan–Meier overall survival by median-split CAF-subtype scores, TCGA-PAAD (n=176): no score stratifies survival.",
+      "findings": [
+        "Survival is null: median-split log-rank — iCAF χ²=0.26 p=0.61 (median OS high 386d vs low 394d), myCAF p=0.69 (468d vs 308d), apCAF p=0.17, SASP p=0.65; n=88/88 per arm, KM curves overlap.",
+        "Stage is null and underpowered: Kruskal–Wallis iCAF p=0.25, myCAF p=0.30 — 84% of the cohort is stage II (n=3 stage III, n=4 stage IV), so there is essentially no contrast to detect.",
+        "iCAF and apCAF track immune infiltration strongly (n=176): iCAF vs immune-naive r=0.69 p=7.2e-26; apCAF r=0.76 p=9.2e-34; SASP r=0.57; myCAF r=0.49 — inflammatory/antigen-presenting CAF programs sit inside an inflamed-tumor ecosystem.",
+        "myCAF vs the naive-stromal score is r=0.93 — near-circular, since myCAF markers are core stromal genes; this mostly validates the score tracks stromal content.",
+        "Cross-signature structure: iCAF–SASP r=0.82 (shared IL6/CXCL genes, expected); myCAF correlates only modestly with iCAF (0.48) and apCAF (0.50) — distinct fibroblast programs, not one generic stroma axis."
+      ],
+      "question": "In untreated human PDAC tumors (TCGA-PAAD, n=176 primary tumors with OS data), do bulk myCAF / iCAF / apCAF / SASP signature scores associate with overall survival, pathologic stage, or immune infiltration?",
+      "slug": "tcga_paad_caf_scoring",
+      "status": "complete",
+      "summary": "Null result on survival and stage: no CAF-subtype score stratifies overall survival (log-rank p=0.17–0.69, overlapping KM curves) or stage (Kruskal–Wallis p=0.25/0.30). The positive finding is strong immune-infiltration coupling: iCAF vs naive-immune r=0.69 (p=7.2e-26), apCAF r=0.76 (p=9.2e-34). The null is usable — it's the honest baseline any daraxonrasib-induced CAF reprogramming must be judged against, since untreated prognostic value can't be assumed.",
+      "title": "CAF-subtype signatures in bulk TCGA-PAAD: clinical correlates"
+    },
+    {
+      "caveats": [
+        "Copy-number verification INFEASIBLE from deposited data: GEO holds only MAFs, no segment files. No copy-number calls were fabricated.",
+        "The paper's stated frequencies (36%/25%/9%/9%) come from ctDNA of 44 phase 1/2 patients that was never deposited — an n=1 xenograft pair cannot reproduce them.",
+        "Tumor-only WES (panel-of-normals, no matched normal): private variant sets are mostly noise (MUC/HLA/KIR pileup, VAF ~0.05); only hotspot, high-VAF calls were interpreted.",
+        "Private = absent from parental callset; a low-frequency parental subclone below detection cannot be excluded.",
+        "Full WES re-alignment from SRA (~11 GB, under the timebox bar) was judged not worthwhile: no matched normal, mouse-contamination risk in xenografts, and still an n=1 pair that could not reproduce clinical frequencies."
+      ],
+      "figure": "/figures/vaf_shared_vs_private.png",
+      "figure_caption": "Variant allele frequency distributions: shared variants (grey) vs parental-private and resistant-private calls; KRAS G12D and acquired hotspots sit well above the noise pileup at VAF ~0.05.",
+      "findings": [
+        "No secondary KRAS mutations: both samples carry exactly one KRAS variant — shared p.G12D (chr12:25245350 C>T); zero resistant-private KRAS variants, consistent with the paper's claim.",
+        "KRAS G12D VAF rises parental→resistant: 0.49 (153/312 reads) → 0.82 (749/913) — suggestive of mutant-allele amplification but NOT a copy-number call; directionally consistent with, not verification of, the paper's amplification finding.",
+        "Acquired MAPK reactivation: resistant-private MAP2K1 p.K57E (activating MEK1 allele, VAF 0.40, depth 146), absent from parental at any filter state.",
+        "Acquired PI3K activation: resistant-private PIK3CA p.E542K (canonical hotspot, VAF 0.37, depth 152), absent from parental.",
+        "RTK/MYC panels: zero resistant-private protein-coding variants — consistent with the paper framing those as copy-number/expression mechanisms, invisible to MAF-level mutation data."
+      ],
+      "question": "Can the resistance-genomics map from Aronchik et al. (Nature Medicine 2026) be verified from the deposited primary data? The deposit is only HPAC xenograft WES MAFs: parental P18 (DMSO) vs resistant P28 (selected at 0.1 µM daraxonrasib), n=1 pair.",
+      "slug": "gse335219_cnv_check",
+      "status": "complete",
+      "summary": "From 1,600 shared / 558 parental-private / 523 resistant-private high-confidence coding variants: no secondary KRAS mutations (single shared G12D) — consistent with the paper; KRAS G12D VAF rises 0.49→0.82, directionally consistent with (not a verification of) mutant-allele amplification; acquired MAP2K1 K57E (activating MEK1, VAF 0.40) and PIK3CA E542K (canonical hotspot, VAF 0.37) corroborate the MAPK-reactivation and PI3K mechanisms at mutation level. Copy-number verification was infeasible from deposited data — only MAFs were deposited, no segment files — and the paper's 36%/25%/9%/9% frequencies come from undeposited 44-patient ctDNA, unreproducible by an n=1 pair.",
+      "title": "Mutation-level check of daraxonrasib resistance claims (GSE335219)"
+    },
+    {
+      "caveats": [
+        "n=3/group: Welch t is the honest choice; nominal-p DEG sets feed the overlaps while FDR<0.10 calls are much smaller — gene ranks are soft, enrichment patterns are firm.",
+        "Bulk RNA-seq, 3D floating-collagen monoculture: tumor-cell-intrinsic program only, no stroma.",
+        "Gene sets are hand-built inline Hallmark approximations, not MSigDB collections; matrices are pre-normalized featureCounts.",
+        "Reversal analysis compares across experimental batches (within-batch treatment contrasts, cross-batch sign concordance).",
+        "MRTX1133, not daraxonrasib: cross-drug BET-combination claims need a daraxonrasib-resistant PDAC model."
+      ],
+      "figure": "/figures/volcano_resistant_vs_parental.png",
+      "figure_caption": "Volcano plot of MRTX1133-resistant vs parental PANC1: 993 up / 1,119 down genes; FGFR-axis rewiring dominates the up set.",
+      "findings": [
+        "993 genes up / 1,119 down in resistant vs parental (p<0.05, |log2FC|≥1; stricter FDR<0.10: 262/381). RTK rewiring: FGFR2/3/4, ERBB4, FLT1/4, INSR, KIT, NTRK2 up — but EGFR itself down (−0.73, p=0.013) and AXL/KDR/PDGFRB/RET down.",
+        "MAPK feedback collapses: SPRY2 −4.35, SPRY4, DUSP5/6, ETV4/5, FOS among down genes (p=3.2e-5) — resistant cells no longer run MAPK feedback loops.",
+        "No classic EMT (EMT set enriched among *down* genes p=3.1e-4; VIM −0.63) and no MYC program (MYC mRNA −0.58, p=0.016; MYC-target set has zero DEG overlap).",
+        "Acetylation machinery is rebalanced, not induced: EP300/BRD2/3/4 mRNA essentially flat; HDAC11/HDAC5/SIRT7/SIRT2 up, HDAC9/HDAC7/KAT2B/KAT6B down — the reported histone-acetylation shift must be a net-activity phenomenon, and BET vulnerability is functional, not transcriptional.",
+        "BET reversal: JQ1 reverses 844/993 resistance-up DEGs, OTX-015 reverses 862/993 (both drugs crush the top hit COL3A1 +6.6 → −3.1, and suppress FGFR3/4). Resistance-down genes are mostly not restored (~14%) — BET inhibition represses rather than fully reverting state."
+      ],
+      "question": "What transcriptional program distinguishes the MRTX1133-resistant state in human PANC1 (n=3 parental vs n=3 resistant, 3D collagen), and do BET inhibitors invert it? Testing acetylation machinery and the RTK/EMT/MYC resistance themes.",
+      "slug": "gse294216_bet_resistance",
+      "status": "complete",
+      "summary": "The resistant state is an RTK-rewiring program — FGFR2/3/4 up, EGFR down (a swap of RTK dependencies, RTK set enriched among up genes p=1.4e-6, 7.7× fold-enrichment) — with MAPK-feedback collapse (SPRY2 −4.35, DUSP6, ETV4/5 among down, p=3.2e-5) and no classic EMT or MYC program. BET vulnerability is functional: EP300/BRD2/3/4 mRNA is essentially unchanged (BRD4 −0.25 nominal, FDR 0.35), yet JQ1 inverts 844/993 resistance-up genes (p≈1e-118) and OTX-015 inverts 862/993 (p≈1e-133). ~85% of the resistance-up transcriptome inverts under either BET inhibitor — the strongest program-level evidence for the BET combination.",
+      "title": "BET-inhibitor vulnerability of MRTX1133-resistant PANC1 (GSE294216)"
+    },
+    {
+      "caveats": [
+        "Single section (PDAC-p1), one patient — generality untested; the pipeline is parameterized to extend to p2–p5.",
+        "Visium spots are ~55 µm (1–10 cells): 'myCAF high in tumor nests' can reflect juxtatumoral fibroblasts sharing a spot with tumor cells, not pure myCAF cells.",
+        "Tumor spots defined by transcriptomic threshold (top quartile of an epithelial rank score), not pathologist H&E annotation — likely conservative for the gradients, not inflating.",
+        "apCAF signature is 4 genes (SAA3P omitted as a human pseudogene) — modest power for a rare state; FFPE probe-based detection is a subset of transcripts."
+      ],
+      "figure": "/figures/mycaf_map.png",
+      "figure_caption": "Spatial map of myCAF signature scores across the PDAC-p1 section: highest scores track the tumor nests, falling off in distal stroma.",
+      "findings": [
+        "myCAF hugs tumor: highest inside tumor nests and adjacent stroma, falling steeply with distance (median 0.848→0.660; ρ(score,distance)=−0.47, p~1e-208; adjacent-vs-distal Wilcoxon p=4.8e-161). On the map, high myCAF tracks coherent epithelial nests.",
+        "iCAF is distal: scores rise away from tumor (median 0.488→0.519; ρ=+0.24, p~1e-52; adjacent-vs-distal p=8.9e-46) — smaller absolute gradient than myCAF's, but consistent on the map with bright iCAF patches in far-from-nest stroma.",
+        "apCAF has essentially no spatial gradient (medians 0.716–0.726, ρ=+0.11) — no distinct tumor-distance niche at spot resolution, or too rare to resolve.",
+        "Gene coverage was 100% for every signature in the matrix (myCAF 6/6, iCAF 9/9, apCAF 4/4, SASP 15/15, matrisome 19/19, MAPK 9/9, RASON 7/7) — no score rests on a thin gene set.",
+        "Hypothesis pairing: if daraxonrasib acts via tumor cells first (per the GSE337208 CAF-mining result), the juxtatumoral myCAF niche is where indirect effects should appear first — the thesis should test juxtatumoral vs distal fibroblast responses separately."
+      ],
+      "question": "In untreated human PDAC tissue (GSE274103, Visium FFPE section PDAC-p1, 4,987 spots), where do myCAF / iCAF / apCAF programs localize relative to tumor nests — segregated niches or intermingled?",
+      "slug": "pdac_spatial_caf_mapping",
+      "status": "complete",
+      "summary": "Segregated along a tumor-distance axis: myCAF is a tumor-proximal niche (median 0.85→0.66 tumor→distal, ρ=−0.47, adjacent-vs-distal p=4.8e-161), iCAF a distal-stromal niche (0.49→0.52, ρ=+0.24, p=8.9e-46), apCAF shows essentially no gradient. This is the untreated baseline architecture daraxonrasib will act on — no treated human PDAC spatial dataset exists publicly. For the thesis it argues distance-from-tumor must be a covariate (or stratification) in any spatial readout: averaging all CAFs across a section would dilute exactly this gradient.",
+      "title": "Spatial mapping of CAF niches in untreated human PDAC"
     }
   ]
 }
