@@ -1,5 +1,11 @@
-.venv/
-__pycache__/
 *.pyc
 .DS_Store
+.venv/
+__pycache__/
+analyses/gse294216_bet_resistance/data/
+analyses/gse335219_cnv_check/data/
+analyses/gse336609_caf_scoring/data/
 analyses/gse337208_caf_mining/data/
+analyses/pdac_spatial_caf_mapping/data/
+analyses/resistance_signatures/data/
+analyses/tcga_paad_caf_scoring/data/

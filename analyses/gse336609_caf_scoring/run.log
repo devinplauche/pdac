@@ -1,0 +1,63 @@
+== download ==
+  have GSE336609_AAP01_KRAS-G12D_AA_Human_Reads_MRTX1133_vs_Ctrl.csv.gz
+  have GSE336609_AAP01_KRAS-G12D_AA_Mouse_Reads_MRTX1133_vs_Ctrl.csv.gz
+  have GSE336609_AAP16_KRAS-G12V_AA_Human_Reads_RMC-6236_vs_Ctrl.csv.gz
+  have GSE336609_AAP16_KRAS-G12V_AA_Mouse_Reads_RMC-6236_vs_Ctrl.csv.gz
+== gene map ==
+  have /home/hatch/workspace/pdac/analyses/gse336609_caf_scoring/data/symbol_to_ensembl_mouse.tsv (83 symbols)
+  have /home/hatch/workspace/pdac/analyses/gse336609_caf_scoring/data/symbol_to_ensembl_human.tsv (56 symbols)
+== mouse matrix ==
+  GSE336609_AAP01_KRAS-G12D_AA_Mouse_Reads_MRTX1133_vs_Ctrl.csv.gz: 53647 rows -> 53647 unique (83 symbol-labeled)
+  GSE336609_AAP16_KRAS-G12V_AA_Mouse_Reads_RMC-6236_vs_Ctrl.csv.gz: 53647 rows -> 53647 unique (83 symbol-labeled)
+compartment              endothelial  epithelial_host  fibroblast  immune  myofibroblast_smc  pericyte
+sample                                                                                                
+AAP01|AAP01_MRTX1_Mouse         0.03             0.02        2.49    0.58               0.01      0.02
+AAP01|AAP01_MRTX2_Mouse         0.04             0.12        3.32    0.93               0.02      0.02
+AAP01|AAP01_MRTX3_Mouse         0.03             0.01        2.85    1.02               0.01      0.03
+AAP01|AAP01_VC1_Mouse           0.06             0.02        3.22    0.99               0.11      0.04
+AAP01|AAP01_VC2_Mouse           0.06             0.12        2.25    0.37               0.18      0.05
+AAP01|AAP01_VC3_Mouse           0.05             0.03        3.64    0.58               0.03      0.04
+AAP16|AAP16_RMC1_Mouse          0.01             0.01        1.25    0.26               0.02      0.01
+AAP16|AAP16_RMC2_Mouse          0.03             0.00        1.96    0.45               0.01      0.02
+AAP16|AAP16_VC1_Mouse           0.02             0.00        1.38    0.13               0.00      0.02
+AAP16|AAP16_VC2_Mouse           0.02             0.00        1.74    0.17               0.01      0.03
+AAP16|AAP16_VC3_Mouse           0.02             0.00        1.61    0.21               0.01      0.03
+== scoring mouse (rank + zscore) ==
+== human matrix ==
+  GSE336609_AAP01_KRAS-G12D_AA_Human_Reads_MRTX1133_vs_Ctrl.csv.gz: 60483 rows -> 60483 unique (56 symbol-labeled)
+  GSE336609_AAP16_KRAS-G12V_AA_Human_Reads_RMC-6236_vs_Ctrl.csv.gz: 60483 rows -> 60483 unique (56 symbol-labeled)
+== scoring human (rank + zscore) ==
+/usr/lib/python3/dist-packages/scipy/stats/_morestats.py:4088: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  warnings.warn("Exact p-value calculation does not work if there are "
+/usr/lib/python3/dist-packages/scipy/stats/_morestats.py:4088: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  warnings.warn("Exact p-value calculation does not work if there are "
+/usr/lib/python3/dist-packages/scipy/stats/_morestats.py:4102: UserWarning: Sample size too small for normal approximation.
+  warnings.warn("Sample size too small for normal approximation.")
+/usr/lib/python3/dist-packages/scipy/stats/_morestats.py:4088: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  warnings.warn("Exact p-value calculation does not work if there are "
+/usr/lib/python3/dist-packages/scipy/stats/_morestats.py:4102: UserWarning: Sample size too small for normal approximation.
+  warnings.warn("Sample size too small for normal approximation.")
+
+model     drug           signature   compartment  median_score_veh  median_score_trt  delta_trt_minus_veh  MWU_p_sample_level  median_member_log2FC  signedrank_p_gene_level
+AAP01 MRTX1133               myCAF stroma(mouse)            0.9883            0.9646              -0.0238                 0.1                -1.817                 0.031250
+AAP01 MRTX1133                iCAF stroma(mouse)            0.8988            0.9156               0.0168                 0.4                -0.021                 1.000000
+AAP01 MRTX1133               apCAF stroma(mouse)            0.9796            0.9891               0.0095                 0.1                 0.419                 0.062500
+AAP01 MRTX1133                SASP stroma(mouse)            0.7646            0.8022               0.0375                 0.7                 0.217                 0.432768
+AAP01 MRTX1133      matrisome_core stroma(mouse)            0.9929            0.9875              -0.0054                 0.1                -0.519                 0.003918
+AAP01 MRTX1133        MAPK_targets stroma(mouse)            0.8767            0.8592              -0.0174                 0.7                -0.334                 0.039062
+AAP01 MRTX1133 RASON_inhibition_PD stroma(mouse)            0.8828            0.8690              -0.0138                 0.7                -0.334                 0.109375
+AAP01 MRTX1133        MAPK_targets  tumor(human)            0.9193            0.8638              -0.0554                 0.1                -0.944                 0.003906
+AAP01 MRTX1133 RASON_inhibition_PD  tumor(human)            0.9200            0.8543              -0.0657                 0.1                -0.944                 0.015625
+AAP16 RMC-6236               myCAF stroma(mouse)            0.8813            0.9209               0.0396                 0.2                 0.971                 0.437500
+AAP16 RMC-6236                iCAF stroma(mouse)            0.8193            0.8841               0.0648                 0.2                 2.187                 0.093750
+AAP16 RMC-6236               apCAF stroma(mouse)            0.8983            0.8997               0.0014                 1.0                -0.669                 0.812500
+AAP16 RMC-6236                SASP stroma(mouse)            0.7672            0.8711               0.1039                 0.2                 1.154                 0.016602
+AAP16 RMC-6236      matrisome_core stroma(mouse)            0.9686            0.9842               0.0156                 0.2                 0.006                 0.515278
+AAP16 RMC-6236        MAPK_targets stroma(mouse)            0.9351            0.8989              -0.0362                 0.2                -1.161                 0.003906
+AAP16 RMC-6236 RASON_inhibition_PD stroma(mouse)            0.9333            0.9006              -0.0327                 0.2                -1.161                 0.015625
+AAP16 RMC-6236        MAPK_targets  tumor(human)            0.8900            0.8820              -0.0080                 0.8                -0.266                 0.161429
+AAP16 RMC-6236 RASON_inhibition_PD  tumor(human)            0.8685            0.8614              -0.0071                 1.0                 0.000                 0.600179
+
+KEY: min achievable two-sided MWU p = 0.10 for 3v3 (AAP01), 0.20 for 2v3 (AAP16).
+figures written
+ALL DONE

@@ -1,0 +1,61 @@
+compendium v1.0; method=zscore; 183 samples x 7 signatures -> /home/hatch/workspace/pdac/analyses/tcga_paad_caf_scoring/output/caf_scores.csv
+                                                          label n_genes n_found
+myCAF                                       Myofibroblastic CAF       6       6
+iCAF                                           Inflammatory CAF       9       9
+apCAF                                    Antigen-presenting CAF       4       4
+SASP                  Senescence-associated secretory phenotype      15      15
+matrisome_core                  Core matrisome (structural ECM)      19      19
+MAPK_targets                    MAPK/ERK transcriptional output       9       9
+RASON_inhibition_PD  RAS(ON) inhibition pharmacodynamic readout       7       7
+manifest entries: 183
+tar stream ended early (expected): unexpected end of data
+have 183 files, downloading 6 missing individually
+skipping unreadable 2315cbc2-7289-4181-92fb-4f684cce84fa.rna_seq.augmented_star_gene_counts.tsv No columns to parse from file
+loaded 183 files, skipped 1: ['2315cbc2-7289-4181-92fb-4f684cce84fa.rna_seq.augmented_star_gene_counts.tsv']
+matrix: (59427, 183)
+mapped 183/183 files to cases
+/usr/bin/python3 /home/hatch/workspace/pdac/analyses/signature_panel/score_signatures.py --input /home/hatch/workspace/pdac/analyses/tcga_paad_caf_scoring/data/matrix_for_scoring.tsv --signatures /home/hatch/workspace/pdac/analyses/signature_panel/signatures_v1.yaml --organism human --method zscore --out /home/hatch/workspace/pdac/analyses/tcga_paad_caf_scoring/output/caf_scores.csv --coverage-out /home/hatch/workspace/pdac/analyses/tcga_paad_caf_scoring/output/signature_coverage.csv
+                                                          label  n_genes  n_found                          direction
+myCAF                                       Myofibroblastic CAF        6        6             increases with program
+iCAF                                           Inflammatory CAF        9        9             increases with program
+apCAF                                    Antigen-presenting CAF        4        4             increases with program
+SASP                  Senescence-associated secretory phenotype       15       15             increases with program
+matrisome_core                  Core matrisome (structural ECM)       19       19             increases with program
+MAPK_targets                    MAPK/ERK transcriptional output        9        9             increases with program
+RASON_inhibition_PD  RAS(ON) inhibition pharmacodynamic readout        7        7  decreases with RAS(ON) inhibition
+immune-naive: 8/8 genes present
+stromal-naive: 6/6 genes present
+primary tumors with OS: 176
+stage counts:
+ stage_grp
+II     146
+I       20
+IV       4
+III      3
+Name: count, dtype: int64
+myCAF vs immune: spearman r=0.493 p=3.44e-12 n=176
+myCAF vs stromal: spearman r=0.933 p=5.55e-79 n=176
+iCAF vs immune: spearman r=0.687 p=7.21e-26 n=176
+iCAF vs stromal: spearman r=0.594 p=3.81e-18 n=176
+apCAF vs immune: spearman r=0.755 p=9.15e-34 n=176
+apCAF vs stromal: spearman r=0.564 p=3.64e-16 n=176
+SASP vs immune: spearman r=0.570 p=1.52e-16 n=176
+SASP vs stromal: spearman r=0.655 p=6.51e-23 n=176
+wrote output CSVs + PNGs
+
+=== coverage ===
+                                                          label  n_genes  n_found                          direction
+myCAF                                       Myofibroblastic CAF        6        6             increases with program
+iCAF                                           Inflammatory CAF        9        9             increases with program
+apCAF                                    Antigen-presenting CAF        4        4             increases with program
+SASP                  Senescence-associated secretory phenotype       15       15             increases with program
+matrisome_core                  Core matrisome (structural ECM)       19       19             increases with program
+MAPK_targets                    MAPK/ERK transcriptional output        9        9             increases with program
+RASON_inhibition_PD  RAS(ON) inhibition pharmacodynamic readout        7        7  decreases with RAS(ON) inhibition
+
+=== score correlations (tumors) ===
+       myCAF  iCAF  apCAF  SASP
+myCAF   1.00  0.48   0.50  0.59
+iCAF    0.48  1.00   0.53  0.82
+apCAF   0.50  0.53   1.00  0.59
+SASP    0.59  0.82   0.59  1.00

@@ -1,0 +1,68 @@
+# PROPOSED additions to signatures_v1.yaml — NOT yet curated in.
+# Derived 2026-09-22 by analyses/resistance_signatures/run.py
+# Method: Welch t-test on log2(CPM/TPM+1), |log2FC|>=1, FDR<0.05.
+# Mouse->human orthologs are naive upper() guesses (see report).
+version: "1.0+proposed"
+
+signatures:
+
+  PDAC_KRASi_resistance_UP:
+    label: "PDAC KRASi-resistance program (up)"
+    description: >-
+      Genes consistently upregulated in MRTX1133-resistant vs parental PDAC lines (Panc 02.03 + PANC-1, GSE269985, human arm).
+    source:
+      first_author: "Kumar et al."
+      year: 2024
+      journal: "Cancer Cell (PMID 38975874)"
+      pmid: 38975874
+      geo: "GSE269985"
+      method: "Welch t-test on log2(CPM/TPM+1); |log2FC|>=1, FDR<0.05"
+    human: [SLITRK6, ZNF608, TLE4, MME, SEMA6B, PDE4B, C11orf86, PLCXD3, DSP, GPCPD1, NEO1, TNFRSF1B, FHL1]
+    mouse: [Slitrk6, Znf608, Tle4, Mme, Sema6b, Pde4b, C11orf86, Plcxd3, Dsp, Gpcpd1, Neo1, Tnfrsf1b, Fhl1]
+    direction: "increases with acquired KRASi resistance"
+
+  PDAC_KRASi_resistance_DOWN:
+    label: "PDAC KRASi-resistance program (down)"
+    description: >-
+      Genes consistently downregulated in MRTX1133-resistant vs parental PDAC lines (Panc 02.03 + PANC-1, GSE269985, human arm).
+    source:
+      first_author: "Kumar et al."
+      year: 2024
+      journal: "Cancer Cell (PMID 38975874)"
+      pmid: 38975874
+      geo: "GSE269985"
+      method: "Welch t-test on log2(CPM/TPM+1); |log2FC|>=1, FDR<0.05"
+    human: [ALPG]
+    mouse: [Alpg]
+    direction: "decreases with acquired KRASi resistance"
+
+  KPC_KRASi_resistance_UP:
+    label: "KPC KRASi-resistance program (up)"
+    description: >-
+      Genes upregulated in MRTX1133-resistant vs parental murine KPC lines (6694C2, 6499C4, 6419C5, GSE269985, mouse arm). Human list is a naive upper-case ortholog guess.
+    source:
+      first_author: "Kumar et al."
+      year: 2024
+      journal: "Cancer Cell (PMID 38975874)"
+      pmid: 38975874
+      geo: "GSE269985"
+      method: "Welch t-test on log2(CPM/TPM+1); |log2FC|>=1, FDR<0.05"
+    human: [NR4A1, HMX2, CAMK2N2, ADAMTS4, AIM2, BRSK1, COL7A1, ATP10A, UPP1, WNT10A, PHF19, ISM1, NAV1, IFITM3, FOXD2OS, PCDH19, SEMA3A, AFAP1L2, CDT1, RIPK2, HIC1, AKT3, GEM, TUBB3, LAMB1, MAP2, ANPEP, RRAD, STEAP1, RAMP3, CYP26B1, PLEKHO1, ETV4, GZME, FERMT2, RTKN2, TIMP1, ABCB1B, SLC25A40, PDK3, ARID5A, KLHL1, BAMBI, HIP1, UBASH3B, FRMD4A, TRPV4, BMPER, GM15731, CCL9, SERPINH1, LGALS1, SHOX2, PLCD1, HOXA5, PRR7, FNDC4, SIX4, SPN, RGMB, AP1S2, SMTN, KCNAB3, NES, RHOJ, GDF11, 1700109H08RIK, TCEAL8, CENPN, ISL2, IER5L, TRAF1, SUV39H2, INHBA, TIAM2, TMEM243, COL8A1, TCF7L1, PODXL, PAX3, ANKRD34A, ZEB2, NEIL3, SPSB1, HROB, GPR161, CD109, TBX15, RGS2, DZIP1, TSPYL2, RGS3, GM49774, DBF4, WHRN, NPTXR, MAP1A, PCYT1B, CCL5, D630045J12RIK, RBMS3, BTBD19]
+    mouse: [Nr4a1, Hmx2, Camk2n2, Adamts4, Aim2, Brsk1, Col7a1, Atp10a, Upp1, Wnt10a, Phf19, Ism1, Nav1, Ifitm3, Foxd2os, Pcdh19, Sema3a, Afap1l2, Cdt1, Ripk2, Hic1, Akt3, Gem, Tubb3, Lamb1, Map2, Anpep, Rrad, Steap1, Ramp3, Cyp26b1, Plekho1, Etv4, Gzme, Fermt2, Rtkn2, Timp1, Abcb1b, Slc25a40, Pdk3, Arid5a, Klhl1, Bambi, Hip1, Ubash3b, Frmd4a, Trpv4, Bmper, Gm15731, Ccl9, Serpinh1, Lgals1, Shox2, Plcd1, Hoxa5, Prr7, Fndc4, Six4, Spn, Rgmb, Ap1s2, Smtn, Kcnab3, Nes, Rhoj, Gdf11, 1700109H08Rik, Tceal8, Cenpn, Isl2, Ier5l, Traf1, Suv39h2, Inhba, Tiam2, Tmem243, Col8a1, Tcf7l1, Podxl, Pax3, Ankrd34a, Zeb2, Neil3, Spsb1, Hrob, Gpr161, Cd109, Tbx15, Rgs2, Dzip1, Tspyl2, Rgs3, Gm49774, Dbf4, Whrn, Nptxr, Map1a, Pcyt1b, Ccl5, D630045J12Rik, Rbms3, Btbd19]
+    direction: "increases with acquired KRASi resistance"
+
+  H358_RMCR_MUC1_supported:
+    label: "MUC1-C-supported program in RMC-6236-resistant H358"
+    description: >-
+      Genes downregulated when MUC1-C is silenced (DOX+) in RMC-6236-resistant H358 (GSE324125) — programs the resistant line maintains via MUC1-C. NOT a parental-vs-resistant signature (no parental H358 was deposited).
+    source:
+      first_author: "MUC1-C/RAS(ON) study"
+      year: 2026
+      journal: "(PMID 42415848)"
+      pmid: 42415848
+      geo: "GSE324125"
+      method: "Welch t-test on log2(CPM/TPM+1); |log2FC|>=1, FDR<0.05"
+    human: [MAP2, NPNT, PYGM, HAPLN1, CHI3L1, UBE2Q2, SLITRK5, ALDOC, ADORA1, INSIG1, FAM46A, TRIQK, METTL7A, CA12, LBH, TUBA1A, CCNG2, OLFML2A, TNFSF10, F2RL2, RARRES2, SSBP2, EDIL3, WARS, CXCR4, PCP4, TNC, DARS, MEGF9, PTGDS, NCAM1, TM4SF18, EGLN3, DBP, SNCG, EEF1A2, FADS2, CA9, FOLR1, CPE, NREP, SELENBP1, FAM241A, PNRC1, PGAM1, KCNJ2, SRP9, PMP22, AKR1B10, GXYLT2, NXPH4, SREBF1, LIPA, LOC100507002, C1ORF115, CRYAB, NCOR1P1, UGCG, CADM3, CFI, SERPINF1, ZFAND6, C1QL1, LOC105378047, PSMB5, S100A3, STARD4, HTRA1, CLU, IFIT1, IGFBP2, OLMALINC, FAM49B, MDK, CLDN2, CXCL14, HIST2H2AB, IFNGR1, MYEF2, HIST1H3A, LGALS2, LINC00942, LINC02474, FN1, SOX2, IFITM1, LOC105375304, CRABP2, RGCC, HIST1H1A, S100A4, HIST2H3D, TUBB4A]
+    mouse: [Map2, Npnt, Pygm, Hapln1, Chi3l1, Ube2q2, Slitrk5, Aldoc, Adora1, Insig1, Fam46a, Triqk, Mettl7a, Ca12, Lbh, Tuba1a, Ccng2, Olfml2a, Tnfsf10, F2rl2, Rarres2, Ssbp2, Edil3, Wars, Cxcr4, Pcp4, Tnc, Dars, Megf9, Ptgds, Ncam1, Tm4sf18, Egln3, Dbp, Sncg, Eef1a2, Fads2, Ca9, Folr1, Cpe, Nrep, Selenbp1, Fam241a, Pnrc1, Pgam1, Kcnj2, Srp9, Pmp22, Akr1b10, Gxylt2, Nxph4, Srebf1, Lipa, Loc100507002, C1orf115, Cryab, Ncor1p1, Ugcg, Cadm3, Cfi, Serpinf1, Zfand6, C1ql1, Loc105378047, Psmb5, S100a3, Stard4, Htra1, Clu, Ifit1, Igfbp2, Olmalinc, Fam49b, Mdk, Cldn2, Cxcl14, Hist2h2ab, Ifngr1, Myef2, Hist1h3a, Lgals2, Linc00942, Linc02474, Fn1, Sox2, Ifitm1, Loc105375304, Crabp2, Rgcc, Hist1h1a, S100a4, Hist2h3d, Tubb4a]
+    direction: "supported by MUC1-C in RMC-6236-resistant cells"
+

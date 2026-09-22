@@ -1,0 +1,8 @@
+,label,n_genes,n_found,direction
+myCAF,Myofibroblastic CAF,6,6,increases with program
+iCAF,Inflammatory CAF,9,9,increases with program
+apCAF,Antigen-presenting CAF,4,4,increases with program
+SASP,Senescence-associated secretory phenotype,15,15,increases with program
+matrisome_core,Core matrisome (structural ECM),19,19,increases with program
+MAPK_targets,MAPK/ERK transcriptional output,9,9,increases with program
+RASON_inhibition_PD,RAS(ON) inhibition pharmacodynamic readout,7,7,decreases with RAS(ON) inhibition

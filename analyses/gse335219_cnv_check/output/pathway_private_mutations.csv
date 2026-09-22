@@ -1,0 +1,4 @@
+sample_status,gene,chromosome,start,end,ref,alt,variant_classification,hgvsp,hgvsc,vaf,depth,pathway
+parental_private,SHOC2,10,111011719,111011719,C,A,Missense_Mutation,p.N550K,c.1650C>A,0.0752,306,MAPK
+resistant_private,MAP2K1,15,66435115,66435115,A,G,Missense_Mutation,p.K57E,c.169A>G,0.4041,146,MAPK
+resistant_private,PIK3CA,3,179218294,179218294,G,A,Missense_Mutation,p.E542K,c.1624G>A,0.3684,152,PI3K

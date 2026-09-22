@@ -1,0 +1,17 @@
+ligand,receptor,GSM9850800_cp10k,GSM9850799_cp10k
+Il1a,Il1r1,6.13,12.4
+Il1a,Il1r2,0.2,0.59
+Il1b,Il1r1,6.13,12.4
+Il1b,Il1r2,0.2,0.59
+Il6,Il6ra,0.15,0.27
+Il6,Il6st,0.91,1.43
+Lif,Lifr,0.18,0.19
+Lif,Il6st,0.91,1.43
+Osm,Osmr,1.4,1.54
+Osm,Il6st,0.91,1.43
+Cxcl1,Cxcr2,0.02,0.36
+Csf2,Csf2ra,0.1,0.3
+Csf2,Csf2rb,0.06,0.23
+Csf3,Csf3r,0.08,0.65
+Tnf,Tnfrsf1a,1.58,1.79
+Tnf,Tnfrsf1b,0.48,1.04
