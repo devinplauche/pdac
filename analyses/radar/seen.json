@@ -1,1 +1,150 @@
-{"entries":[{"date":"2026-08-18","identifier":"doi:10.1038/s41591-026-04537-w","notes":"Key resistance paper: paired ctDNA (n=44) at end of phase 1/2; treatment-emergent RAS-pathway alterations in 59%, mutant KRAS amplification in 36% (16/44), RTK 9%, MAPK 25%, PI3K 9%; no secondary KRAS mutations (unlike G12C-off inhibitors). Preclinical: KRAS/MYC amplification, RTK upregulation; daraxonrasib + DDRi, + RTKi, or + zoldonrasib averted resistance.","reported_run":"2026-10-01","source":"Nature Medicine","title":"Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer","url":"https://www.nature.com/articles/s41591-026-04537-w"},{"date":"2026-09-02","identifier":"doi:10.1038/s41556-026-02057-w","notes":"Multi-stroma co-culture (PSCs, mixed fibroblasts, mesothelial cells + organoids) with scRNA-seq: stromal input required for in-vivo-like inflammatory program activation in PDAC malignant cells; ECM-associated and inflammatory signatures enriched in PDAC organoids relative to pancreatitis. Directly validates the thesis conclusion that CAF monoculture misses drug effects visible in co-culture.","reported_run":"2026-10-01","source":"Nature Cell Biology","title":"Multi-stromal organoid co-culture modelling reveals epithelial–fibroblast heterogeneity in pancreatic cancer and pancreatitis","url":"https://www.nature.com/articles/s41556-026-02057-w?error=cookies_not_supported&code=4827088e-ebc8-4022-b06c-d4c053cd18dc"},{"date":"2026-09-09","identifier":"actuate-20260909-elraglusib-ras-inhibitors","notes":"Elraglusib (GSK-3β inhibitor) + daraxonrasib synergistic in murine KPC and human PDX-derived PDAC models, including FOLFIRINOX-resistant models. Supports rational-combination angle for resistant-line thesis work.","reported_run":"2026-10-01","source":"Actuate Therapeutics (GlobeNewswire)","title":"Actuate announces preclinical synergy of elraglusib with zoldonrasib (RMC-9805) and daraxonrasib (RMC-6236) in PDAC","url":"https://Www.globenewswire.com/news-release/2026/09/09/3358461/0/en/actuate-announces-promising-preclinical-data-showing-synergistic-activity-of-elraglusib-in-combination-with-ras-inhibitors-zoldonrasib-and-daraxonrasib.html"},{"date":"2026-09-10","identifier":"rasolute-309-20260910","notes":"G12D-selective zoldonrasib + multi-selective daraxonrasib combination enters phase 3 first-line; mirrors the Nature Medicine finding that zoldonrasib combos avert daraxonrasib resistance preclinically.","reported_run":"2026-10-01","source":"ichgcp.net (trial news)","title":"RASolute 309: Phase 3 of zoldonrasib + daraxonrasib vs chemotherapy in newly diagnosed metastatic PDAC","url":"https://ichgcp.net/news/can-two-pills-beat-chemotherapy-targeted-combination-for-pancreatic-cancer-enters-phase-3"},{"date":"2026-09-14","identifier":"fda-btd-daraxonrasib-firstline-20260914","notes":"Moves RAS-targeted therapy into first-line; supports GI-102 first-line data (ORR 58%, DCR 90% reported at AACR 2026). Regulatory momentum item.","reported_run":"2026-10-01","source":"Revolution Medicines announcement via OncoDaily","title":"FDA grants Breakthrough Therapy Designation to daraxonrasib + gemcitabine/nab-paclitaxel in first-line metastatic pancreatic cancer","url":"https://oncodaily.com/not-to-miss/daraxonrasib-586278"},{"date":"2026-09-23","identifier":"dougan-20260923-cell-il21-mimic","notes":"RAS inhibitor + 21h10 (AI-designed IL-21 mimic) primed CD4 T cells -> IFN-g -> macrophage tumor killing in mouse PDAC; human PDAC CD4 T cells respond to 21h10. Resistance-relevant: converts transient RASi response to durable remission.","reported_run":"2026-10-01","source":"Cell (Dana-Farber summary)","title":"CD4 T cells convert transient responses to KRAS inhibition to durable remissions in pancreatic cancer","url":"https://www.dana-farber.org/newsroom/news-releases/2026/study-identifies-potential-ras-inhibitor-immunotherapy-strategy-for-pancreatic-cancer"},{"date":"2026-09-25","identifier":"sellas-sls009-aacr-20260925","notes":"SLS009 increased apoptosis >6x vs daraxonrasib in MYC-amplified daraxonrasib-resistant patient-derived PDAC organoid; SLS009+daraxonrasib combo increased apoptosis to 36.5% and necrosis to 30.6%. MYC amplification is a recognized RASi resistance mechanism - directly relevant to the resistance-dataset survey and resistant-line thesis.","reported_run":"2026-10-01","source":"SELLAS / AACR Pancreatic Cancer conference (BioSpace)","title":"SELLAS presents SLS009 (tambiciclib, CDK9 inhibitor) activity in MYC-amplified daraxonrasib-resistant PDAC organoids at AACR","url":"https://www.biospace.com/press-releases/sellas-life-sciences-presents-preclinical-data-demonstrating-sls009-activity-in-pancreatic-cancer-models-at-the-2026-aacr-conference-on-pancreatic-cancer"},{"date":"2026-09-27","identifier":"cantargia-nadunolimab-ras-aacr-20260927","notes":"Poster B011 (Kugel lab, Fred Hutch): HMGA2 drives IL-1a -> activates fibroblasts and immune cells into an immunosuppressive TME in basal-like PDAC; RAS inhibition alone left the immune barrier intact, IL1RAP blockade receded suppressive myeloid and fibroblast populations. Fibroblast/CAF angle: supports her thesis premise that CAF programs persist under RAS inhibition.","reported_run":"2026-10-01","source":"Cantargia / AACR Pancreatic Cancer conference (Morningstar)","title":"Cantargia highlights preclinical data supporting nadunolimab (anti-IL1RAP) + RAS inhibition in PDAC at AACR","url":"https://www.morningstar.com/news/accesswire/1228922msn/cantargia-highlights-preclinical-data-at-aacr-supporting-nadunolimab-in-combination-with-ras-inhibition-in-pdac"},{"date":"2026-01-31","identifier":"GSE315129","notes":"Predates radar; added to seen-list for dedup. PSN1 cells treated with DMSO / tazemetostat / RMC-6236 / combo; SASP gene activation as KRASi-sensitizing combo strategy. East China Normal University.","reported_run":null,"source":"GEO","title":"ChIP-seq analysis of H3K27ac changes in pancreatic cancer cells treated with EZH2 and KRAS inhibitors","url":"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=gse315129"},{"date":"2026-01-31","identifier":"GSE315131","notes":"Predates radar; added to seen-list for dedup. KPC tumors treated with RMC-6236 +/- tazemetostat, CD45+ scRNA-seq.","reported_run":null,"source":"GEO","title":"Single-cell RNA-seq analysis of immune microenvironment changes in pancreatic cancer following combined EZH2 and KRAS inhibition","url":"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE315131"}],"maintainer_note":"Seen-list of every item the radar has ever reported (or deliberately seen but not reported). One entry per item: title, identifier, date. Compare against this before reporting.","radar":"pdac-radar-monthly"}
+{
+  "entries": [
+    {
+      "date": "2026-08-18",
+      "identifier": "doi:10.1038/s41591-026-04537-w",
+      "notes": "Key resistance paper: paired ctDNA (n=44) at end of phase 1/2; treatment-emergent RAS-pathway alterations in 59%, mutant KRAS amplification in 36% (16/44), RTK 9%, MAPK 25%, PI3K 9%; no secondary KRAS mutations (unlike G12C-off inhibitors). Preclinical: KRAS/MYC amplification, RTK upregulation; daraxonrasib + DDRi, + RTKi, or + zoldonrasib averted resistance.",
+      "reported_run": "2026-10-01",
+      "source": "Nature Medicine",
+      "title": "Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer",
+      "url": "https://www.nature.com/articles/s41591-026-04537-w"
+    },
+    {
+      "date": "2026-09-02",
+      "identifier": "doi:10.1038/s41556-026-02057-w",
+      "notes": "Multi-stroma co-culture (PSCs, mixed fibroblasts, mesothelial cells + organoids) with scRNA-seq: stromal input required for in-vivo-like inflammatory program activation in PDAC malignant cells; ECM-associated and inflammatory signatures enriched in PDAC organoids relative to pancreatitis. Directly validates the thesis conclusion that CAF monoculture misses drug effects visible in co-culture.",
+      "reported_run": "2026-10-01",
+      "source": "Nature Cell Biology",
+      "title": "Multi-stromal organoid co-culture modelling reveals epithelial\u2013fibroblast heterogeneity in pancreatic cancer and pancreatitis",
+      "url": "https://www.nature.com/articles/s41556-026-02057-w?error=cookies_not_supported&code=4827088e-ebc8-4022-b06c-d4c053cd18dc"
+    },
+    {
+      "date": "2026-09-09",
+      "identifier": "actuate-20260909-elraglusib-ras-inhibitors",
+      "notes": "Elraglusib (GSK-3\u03b2 inhibitor) + daraxonrasib synergistic in murine KPC and human PDX-derived PDAC models, including FOLFIRINOX-resistant models. Supports rational-combination angle for resistant-line thesis work.",
+      "reported_run": "2026-10-01",
+      "source": "Actuate Therapeutics (GlobeNewswire)",
+      "title": "Actuate announces preclinical synergy of elraglusib with zoldonrasib (RMC-9805) and daraxonrasib (RMC-6236) in PDAC",
+      "url": "https://Www.globenewswire.com/news-release/2026/09/09/3358461/0/en/actuate-announces-promising-preclinical-data-showing-synergistic-activity-of-elraglusib-in-combination-with-ras-inhibitors-zoldonrasib-and-daraxonrasib.html"
+    },
+    {
+      "date": "2026-09-10",
+      "identifier": "rasolute-309-20260910",
+      "notes": "G12D-selective zoldonrasib + multi-selective daraxonrasib combination enters phase 3 first-line; mirrors the Nature Medicine finding that zoldonrasib combos avert daraxonrasib resistance preclinically.",
+      "reported_run": "2026-10-01",
+      "source": "ichgcp.net (trial news)",
+      "title": "RASolute 309: Phase 3 of zoldonrasib + daraxonrasib vs chemotherapy in newly diagnosed metastatic PDAC",
+      "url": "https://ichgcp.net/news/can-two-pills-beat-chemotherapy-targeted-combination-for-pancreatic-cancer-enters-phase-3"
+    },
+    {
+      "date": "2026-09-14",
+      "identifier": "fda-btd-daraxonrasib-firstline-20260914",
+      "notes": "Moves RAS-targeted therapy into first-line; supports GI-102 first-line data (ORR 58%, DCR 90% reported at AACR 2026). Regulatory momentum item.",
+      "reported_run": "2026-10-01",
+      "source": "Revolution Medicines announcement via OncoDaily",
+      "title": "FDA grants Breakthrough Therapy Designation to daraxonrasib + gemcitabine/nab-paclitaxel in first-line metastatic pancreatic cancer",
+      "url": "https://oncodaily.com/not-to-miss/daraxonrasib-586278"
+    },
+    {
+      "date": "2026-09-23",
+      "identifier": "dougan-20260923-cell-il21-mimic",
+      "notes": "RAS inhibitor + 21h10 (AI-designed IL-21 mimic) primed CD4 T cells -> IFN-g -> macrophage tumor killing in mouse PDAC; human PDAC CD4 T cells respond to 21h10. Resistance-relevant: converts transient RASi response to durable remission.",
+      "reported_run": "2026-10-01",
+      "source": "Cell (Dana-Farber summary)",
+      "title": "CD4 T cells convert transient responses to KRAS inhibition to durable remissions in pancreatic cancer",
+      "url": "https://www.dana-farber.org/newsroom/news-releases/2026/study-identifies-potential-ras-inhibitor-immunotherapy-strategy-for-pancreatic-cancer"
+    },
+    {
+      "date": "2026-09-25",
+      "identifier": "sellas-sls009-aacr-20260925",
+      "notes": "SLS009 increased apoptosis >6x vs daraxonrasib in MYC-amplified daraxonrasib-resistant patient-derived PDAC organoid; SLS009+daraxonrasib combo increased apoptosis to 36.5% and necrosis to 30.6%. MYC amplification is a recognized RASi resistance mechanism - directly relevant to the resistance-dataset survey and resistant-line thesis.",
+      "reported_run": "2026-10-01",
+      "source": "SELLAS / AACR Pancreatic Cancer conference (BioSpace)",
+      "title": "SELLAS presents SLS009 (tambiciclib, CDK9 inhibitor) activity in MYC-amplified daraxonrasib-resistant PDAC organoids at AACR",
+      "url": "https://www.biospace.com/press-releases/sellas-life-sciences-presents-preclinical-data-demonstrating-sls009-activity-in-pancreatic-cancer-models-at-the-2026-aacr-conference-on-pancreatic-cancer"
+    },
+    {
+      "date": "2026-09-27",
+      "identifier": "cantargia-nadunolimab-ras-aacr-20260927",
+      "notes": "Poster B011 (Kugel lab, Fred Hutch): HMGA2 drives IL-1a -> activates fibroblasts and immune cells into an immunosuppressive TME in basal-like PDAC; RAS inhibition alone left the immune barrier intact, IL1RAP blockade receded suppressive myeloid and fibroblast populations. Fibroblast/CAF angle: supports her thesis premise that CAF programs persist under RAS inhibition.",
+      "reported_run": "2026-10-01",
+      "source": "Cantargia / AACR Pancreatic Cancer conference (Morningstar)",
+      "title": "Cantargia highlights preclinical data supporting nadunolimab (anti-IL1RAP) + RAS inhibition in PDAC at AACR",
+      "url": "https://www.morningstar.com/news/accesswire/1228922msn/cantargia-highlights-preclinical-data-at-aacr-supporting-nadunolimab-in-combination-with-ras-inhibition-in-pdac"
+    },
+    {
+      "date": "2026-01-31",
+      "identifier": "GSE315129",
+      "notes": "Predates radar; added to seen-list for dedup. PSN1 cells treated with DMSO / tazemetostat / RMC-6236 / combo; SASP gene activation as KRASi-sensitizing combo strategy. East China Normal University.",
+      "reported_run": null,
+      "source": "GEO",
+      "title": "ChIP-seq analysis of H3K27ac changes in pancreatic cancer cells treated with EZH2 and KRAS inhibitors",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=gse315129"
+    },
+    {
+      "date": "2026-01-31",
+      "identifier": "GSE315131",
+      "notes": "Predates radar; added to seen-list for dedup. KPC tumors treated with RMC-6236 +/- tazemetostat, CD45+ scRNA-seq.",
+      "reported_run": null,
+      "source": "GEO",
+      "title": "Single-cell RNA-seq analysis of immune microenvironment changes in pancreatic cancer following combined EZH2 and KRAS inhibition",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE315131"
+    },
+    {
+      "date": "2026-10-23",
+      "identifier": "doi:10.1038/s41419-026-09155-5",
+      "notes": "KIT: inactivating CD44 in CAFs cut ECM production and cytokine release, lost immunosuppression, shrank tumors in mouse model; reprogramming (not depleting) CAFs. Direct CAF/ECM thesis angle; ties to existing CD44v6 peptide program.",
+      "reported_run": "2026-11-01",
+      "source": "Cell Death & Disease",
+      "title": "Loss of CD44 reeducates pancreatic cancer-associated fibroblasts modulating their fibrotic and immunosuppressive functions",
+      "url": "https://doi.org/10.1038/s41419-026-09155-5"
+    },
+    {
+      "date": "2026-10-23",
+      "identifier": "tango-vopimetostat-daraxonrasib-esmo-20261023",
+      "notes": "Phase 1/2 TNG462-C102 (NCT06922591): vopimetostat (PRMT5 inhibitor, TNG462) + daraxonrasib in MTAP-deleted RAS-mutant pretreated mPDAC: 82% ORR (18/22), 100% DCR, 9-mo PFS 88%, median PFS not reached. Chemo-free combo; registrational Phase 3 in first-line MTAP-deleted PDAC planned H1 2027. Small non-randomized study; ORR down from 92% interim in 12 pts.",
+      "reported_run": "2026-11-01",
+      "source": "Tango Therapeutics / ESMO 2026",
+      "title": "Vopimetostat plus daraxonrasib yields 82% ORR in MTAP-deleted PDAC",
+      "url": "https://www.targetedonc.com/view/vopimetostat-plus-daraxonrasib-yields-82-orr-in-mtap-deleted-pdac"
+    },
+    {
+      "date": "2026-10-28",
+      "identifier": "doi:10.1158/0008-5472.CAN-26-1315",
+      "notes": "Roswell Park: resistant cells sustain cell-cycle progression despite KRAS suppression; CDK4/6 cotargeting -> G1 arrest, CDK2 cotargeting -> broader durable cytostatic response; both gave durable in-vivo control in acquired-resistance xenografts. Defines sustained cell cycle as the common resistance vulnerability.",
+      "reported_run": "2026-11-01",
+      "source": "Cancer Research",
+      "title": "Targeting distinct cell-cycle nodes overcomes RAS inhibitor resistance",
+      "url": "https://aacrjournals.org/cancerres/article-abstract/doi/10.1158/0008-5472.CAN-26-1315/789694/Targeting-Distinct-Cell-Cycle-Nodes-Overcomes-RAS"
+    },
+    {
+      "date": "2026-10-28",
+      "identifier": "doi:10.1186/s40164-026-00833-w",
+      "notes": "Review synthesizing daraxonrasib structural biology, pharmacology, clinical data and resistance landscape; includes daraxonrasib+afatinib+STAT3-degrader triple with >200-day resistance-free regressions in PDAC GEMMs/PDXs, plus mTORC1/CDK4+CDK2 resistance nodes.",
+      "reported_run": "2026-11-01",
+      "source": "Experimental Hematology & Oncology",
+      "title": "Daraxonrasib and the era of pan-RAS inhibition: mechanisms, clinical advances, and resistance landscapes",
+      "url": "https://doi.org/10.1186/s40164-026-00833-w"
+    },
+    {
+      "date": "2026-10-10",
+      "identifier": "chee-upr-immune-review-jcmm-2026",
+      "notes": "Review: UPR (IRE1a, PERK, ATF6) as modulator of tumor-immune communication; ER stress upregulates PD-L1 via IRE1a RNase (incl. pancreatic lines), BiP stabilizes PD-L1, IRE1a-XBP1s represses MICA; HA15+anti-PD-1 boosted CD8 infiltration in mice. Pan-cancer review with PDAC examples; useful UPR-branch framing for the thesis.",
+      "reported_run": "2026-11-01",
+      "source": "Journal of Cellular and Molecular Medicine",
+      "title": "The unfolded protein response as a modulator of cancer-immune cell communication in the tumour microenvironment",
+      "url": "https://scienmag.com/how-a-cellular-stress-switch-helps-tumours-hide-from-the-immune-system/"
+    },
+    {
+      "date": "2026-02-19",
+      "identifier": "doi:10.1172/jci.insight.192814",
+      "notes": "Predates radar window; added to seen-list for dedup, not reported this run. Sympathetic nerve-CAF crosstalk: sympathetic signaling enhanced CAF activation and ECM remodeling; activated CAFs induced nerve-injury programs in neurons; denervation reduced tumor size in female mice.",
+      "reported_run": null,
+      "source": "JCI Insight",
+      "title": "Sympathetic nerve-fibroblast crosstalk drives nerve injury, fibroblast activation, and matrix remodeling in pancreatic cancer",
+      "url": "https://insight.jci.org/articles/view/192814"
+    }
+  ],
+  "maintainer_note": "Seen-list of every item the radar has ever reported (or deliberately seen but not reported). One entry per item: title, identifier, date. Compare against this before reporting.",
+  "radar": "pdac-radar-monthly"
+}
